@@ -1,5 +1,6 @@
 package flipkart.hackathon.com.flipkarthackathonapp;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -60,6 +61,9 @@ public class MainActivityFragment extends Fragment {
         vals.add(val9);
 
         dataSet = new PieDataSet(vals,"Customer Satisfaction");
+        Typeface tf = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
+        dataSet.setValueTypeface(tf);
+        dataSet.setValueTextSize(9f);
 
         List<String> labels = new ArrayList<>();
         labels.add("Bangalore");
@@ -74,11 +78,15 @@ public class MainActivityFragment extends Fragment {
 
         PieData data = new PieData(labels,dataSet);
         pieChart.setData(data);
+        pieChart.setUsePercentValues(true);
+        pieChart.setDrawSliceText(false);
+
         redrawColor();
-        pieChart.setTouchEnabled(false);
+        //pieChart.setTouchEnabled(true);
 
         Legend legend = pieChart.getLegend();
-        legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART);
+        legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);
+
         return mainView;
     }
 
