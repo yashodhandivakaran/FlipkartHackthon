@@ -20,7 +20,7 @@ public class CityListActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        mainView = inflater.inflate(R.layout.fragment_main, container, false);
+        mainView = inflater.inflate(R.layout.city_list_fragment_main, container, false);
 
         return mainView;
     }
