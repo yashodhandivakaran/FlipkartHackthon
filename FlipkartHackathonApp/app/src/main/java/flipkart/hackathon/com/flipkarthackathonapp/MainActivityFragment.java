@@ -1,11 +1,13 @@
 package flipkart.hackathon.com.flipkarthackathonapp;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.PieChart;
@@ -27,6 +29,7 @@ public class MainActivityFragment extends Fragment {
     PieChart pieChart;
     int materialColors[];
     PieDataSet dataSet;
+    FrameLayout listButton;
 
     public MainActivityFragment() {
     }
@@ -37,6 +40,7 @@ public class MainActivityFragment extends Fragment {
 
         mainView = inflater.inflate(R.layout.fragment_main, container, false);
         pieChart = (PieChart)mainView.findViewById(R.id.pieChart);
+        listButton = (FrameLayout)mainView.findViewById(R.id.listButton);
 
         List<Entry> vals = new ArrayList<>();
 
@@ -86,6 +90,14 @@ public class MainActivityFragment extends Fragment {
 
         Legend legend = pieChart.getLegend();
         legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);
+
+        listButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),CityListActivity.class);
+                getActivity().startActivity(intent);
+            }
+        });
 
         return mainView;
     }
