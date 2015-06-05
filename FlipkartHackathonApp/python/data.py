@@ -1,0 +1,1 @@
+wordlist = ["app","browse","browser","android","ios","windows","iphone","login","password","otp","signup","reset","order","status","refund","cancel","replacement","checkout","cart","payment","search","product","web","website","site"]
