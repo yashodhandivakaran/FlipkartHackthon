@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MPChartTest</string>
+    <string name="app_name">FlipkartHackathonApp</string>
     <string name="hello_world">Hello world!</string>
     <string name="animate">Animate</string>
     <string name="redraw">Redraw</string>
