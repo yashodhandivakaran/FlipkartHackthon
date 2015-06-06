@@ -23,7 +23,7 @@ def get_features(document):
 	s = SnowballStemmer("english")
 	stemmed_words = [ s.stem(word) for word in document_words ]
 	features = {}
-	features['count'] = len(document_words)
+	#features['count'] = len(document_words)
 	for word in data.wordlist:
 		features['contains({})'.format(s.stem(word))] = (word in stemmed_words)
 	return features
