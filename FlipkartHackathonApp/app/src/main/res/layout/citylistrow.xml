@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
     android:padding="10dp">
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
                 android:background="@drawable/circleshape"
                 android:padding="5dp">
                 <TextView
+                    android:id="@+id/cityCount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="10sp"
@@ -29,6 +31,7 @@
                     android:textColor="#FFFFFF"/>
             </RelativeLayout>
             <TextView
+                android:id="@+id/cityName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="City Name"

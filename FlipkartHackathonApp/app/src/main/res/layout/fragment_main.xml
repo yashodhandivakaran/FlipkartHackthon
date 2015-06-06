@@ -23,19 +23,19 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City 1: 10%"
+                    android:id="@+id/city1"
                     android:textSize="20sp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City 2: 20%"
+                    android:id="@+id/city2"
                     android:textSize="20sp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City 3: 30%"
+                    android:id="@+id/city3"
                     android:textSize="20sp"
                     />
             </LinearLayout>

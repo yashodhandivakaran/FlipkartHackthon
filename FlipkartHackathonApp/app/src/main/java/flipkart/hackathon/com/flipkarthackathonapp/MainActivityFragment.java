@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import android.widget.FrameLayout;
@@ -23,6 +24,8 @@ import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
+import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
+import com.github.mikephil.charting.utils.Highlight;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -43,12 +46,19 @@ import flipkart.hackathon.com.flipkarthackathonapp.data.entities.Tweets;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment  implements InsertValuesInDBTask.InsertionDone,GetCitiesFromDB.RetrivalDoneCities {
+public class MainActivityFragment extends Fragment  implements InsertValuesInDBTask.InsertionDone,GetCitiesFromDB.RetrivalDoneCities
+        ,OnChartValueSelectedListener,
+         View.OnClickListener   {
     View mainView;
     PieChart pieChart;
     int materialColors[];
     PieDataSet dataSet;
     FrameLayout listButton;
+
+    List<Cities> mCities;
+    TextView city1;
+    TextView city2;
+    TextView city3;
 
     public MainActivityFragment() {
     }
@@ -59,6 +69,10 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         mainView = inflater.inflate(R.layout.fragment_main, container, false);
         pieChart = (PieChart)mainView.findViewById(R.id.pieChart);
         listButton = (FrameLayout)mainView.findViewById(R.id.listButton);
+
+        city1 = (TextView)mainView.findViewById(R.id.city1);
+        city2 = (TextView)mainView.findViewById(R.id.city2);
+        city3 = (TextView)mainView.findViewById(R.id.city3);
 
         /*List<Entry> vals = new ArrayList<>();
 
@@ -135,9 +149,20 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         task.execute();
     }
 
+    @Override
+    public void onClick(View v) {
+        if(mCities == null){
+            Toast.makeText(getActivity(),"Loading data ...",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        Intent i = new Intent(getActivity(),CityListActivity.class);
+        /*i.putExtra("cities",new ArrayList<Cities>(mCities));*/
+        startActivity(i);
+    }
+
     private void makeNetworkCall() {
         RequestQueue queue = Volley.newRequestQueue(getActivity());
-        String url = "http://172.20.186.118:5002/get";
+        String url = "http://172.20.186.118:5003/get";
         //String url = "http://ip.jsontest.com/";
         JSONObject empty = new JSONObject();
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET,url,null, new Response.Listener<JSONObject>() {
@@ -231,14 +256,26 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
 
     @Override
     public void updatedCities(List<Cities> citieses) {
-
+        mCities = citieses;
         List<Entry> vals = new ArrayList<Entry>();
 
         List<String> labels = new ArrayList<>();
+        int count = 0;
         for(Cities city: citieses){
-            vals.add(new Entry(city.getCount(),0));
-            labels.add(city.getName());
+
+            vals.add(new Entry(city.getCount(),count++));
+            //labels.add(city.getName());
         }
+        labels.add("Bangalore");
+        labels.add("B");
+        labels.add("C");
+        labels.add("D");
+        labels.add("E");
+        labels.add("F");
+        labels.add("G");
+        labels.add("H");
+        labels.add("I");
+        labels.add("J");
 
         dataSet = new PieDataSet(vals,"Customer Satisfaction");
         Typeface tf = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
@@ -251,13 +288,32 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         pieChart.setDrawSliceText(false);
 
         redrawColor(citieses.size());
-        //pieChart.setTouchEnabled(true);
+        pieChart.setTouchEnabled(true);
 
         Legend legend = pieChart.getLegend();
         legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);
         pieChart.invalidate();
         animateChart();
+        pieChart.setOnChartValueSelectedListener(this);
 
+        city1.setText(citieses.get(0).getName()+" : "+citieses.get(0).getCount());
+        city2.setText(citieses.get(1).getName()+" : "+citieses.get(1).getCount());
+        city3.setText(citieses.get(2).getName()+" : "+citieses.get(2).getCount());
+
+        listButton.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onValueSelected(Entry e, int dataSetIndex, Highlight h) {
+        Intent i = new Intent(getActivity(),CityCategoriesActivity.class);
+        i.putExtra("city_name",mCities.get(dataSetIndex).getName());
+        startActivity(i);
+
+    }
+
+    @Override
+    public void onNothingSelected() {
 
     }
 }
