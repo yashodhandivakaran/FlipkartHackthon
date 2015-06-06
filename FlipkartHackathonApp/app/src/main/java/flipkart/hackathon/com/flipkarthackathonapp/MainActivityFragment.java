@@ -242,9 +242,9 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         animateChart();
         pieChart.setOnChartValueSelectedListener(this);
 
-        city1.setText(citieses.get(0).getName()+" : "+citieses.get(0).getCount());
-        city2.setText(citieses.get(1).getName()+" : "+citieses.get(1).getCount());
-        city3.setText(citieses.get(2).getName()+" : "+citieses.get(2).getCount());
+        city1.setText(citieses.get(0).getName().toUpperCase()+" : "+citieses.get(0).getCount());
+        city2.setText(citieses.get(1).getName().toUpperCase()+" : "+citieses.get(1).getCount());
+        city3.setText(citieses.get(2).getName().toUpperCase()+" : "+citieses.get(2).getCount());
 
         listButton.setOnClickListener(this);
 

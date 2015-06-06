@@ -83,6 +83,7 @@ public class CityCategoriesActivityFragment extends Fragment implements GetCateg
 
         barChart.setData(barData);
         barChart.invalidate();
+        barChart.notifyDataSetChanged();
 
     }
 }
