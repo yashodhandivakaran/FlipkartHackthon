@@ -84,6 +84,7 @@ public class MainActivityFragment extends Fragment {
         pieChart.setData(data);
         pieChart.setUsePercentValues(true);
         pieChart.setDrawSliceText(false);
+        pieChart.setDescription("");
 
         redrawColor();
         //pieChart.setTouchEnabled(true);
@@ -94,7 +95,7 @@ public class MainActivityFragment extends Fragment {
         listButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),CityListActivity.class);
+                Intent intent = new Intent(getActivity(),CityCategoriesActivity.class);
                 getActivity().startActivity(intent);
             }
         });
