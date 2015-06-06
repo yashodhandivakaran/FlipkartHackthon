@@ -45,14 +45,14 @@ public class MainActivityFragment extends Fragment {
         List<Entry> vals = new ArrayList<>();
 
         Entry val1= new Entry(20,0);
-        Entry val2= new Entry(30,0);
-        Entry val3= new Entry(10,0);
-        Entry val4= new Entry(50,0);
-        Entry val5= new Entry(10,0);
-        Entry val6= new Entry(20,0);
-        Entry val7= new Entry(5,0);
-        Entry val8= new Entry(15,0);
-        Entry val9= new Entry(25,0);
+        Entry val2= new Entry(30,1);
+        Entry val3= new Entry(10,2);
+        Entry val4= new Entry(50,3);
+        Entry val5= new Entry(10,4);
+        Entry val6= new Entry(20,5);
+        Entry val7= new Entry(5,6);
+        Entry val8= new Entry(15,7);
+        Entry val9= new Entry(25,8);
 
         vals.add(val1);
         vals.add(val2);
@@ -84,6 +84,7 @@ public class MainActivityFragment extends Fragment {
         pieChart.setData(data);
         pieChart.setUsePercentValues(true);
         pieChart.setDrawSliceText(false);
+        pieChart.setDescription("");
 
         redrawColor();
         //pieChart.setTouchEnabled(true);
@@ -94,11 +95,12 @@ public class MainActivityFragment extends Fragment {
         listButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),CityListActivity.class);
+                Intent intent = new Intent(getActivity(),CityCategoriesActivity.class);
                 getActivity().startActivity(intent);
             }
         });
 
+        animateChart();
         return mainView;
     }
 
