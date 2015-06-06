@@ -113,7 +113,7 @@ public class FKDBWrapper {
 
     public List<Categories> getCategories(Cities city) {
         SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
-        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, CategoriesTable.CITY + " =? ", new String[]{city.getName()}
+        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, CategoriesTable.CITY + " = ? ", new String[]{city.getName()}
                 , null, null, null);
         //cursor.moveToFirst();
         ArrayList<Categories> categoriesesList = new ArrayList<Categories>();
@@ -128,9 +128,9 @@ public class FKDBWrapper {
     public List<Tweets> getTweets(Cities city, Categories category) {
 
         SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
-        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, new String[]{TweetsTable.CITY,
+        Cursor cursor = sqlite.query(TweetsTable.TABLE_NAME, new String[]{TweetsTable.CITY,
                         TweetsTable.CATEGORY, TweetsTable.TWEET_ID, TweetsTable.TWEET_TEXT},
-                TweetsTable.CITY + "=? AND " + TweetsTable.CATEGORY + "=? "
+                TweetsTable.CITY + " =? AND " + TweetsTable.CATEGORY + " =? "
                 , new String[]{city.getName(), category.getName()}, null, null, null);
         //cursor.moveToFirst();
         ArrayList<Tweets> tweetsList = new ArrayList<Tweets>();
