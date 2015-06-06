@@ -91,7 +91,7 @@ class CityRecyclerViewAdapter extends RecyclerView.Adapter<CityRecyclerViewAdapt
         public TextView cityName;
         public RelativeLayout listRowBg;
 
-        public ViewHolder(LinearLayout itemView) {
+        public ViewHolder(final LinearLayout itemView) {
             super(itemView);
             continer = itemView;
             continer.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +100,7 @@ class CityRecyclerViewAdapter extends RecyclerView.Adapter<CityRecyclerViewAdapt
                     int position = getPosition();
                     //TODO: start new activity with city name;
                     Intent i = new Intent(mContext,CityCategoriesActivity.class);
-                    i.putExtra("city_name",mCities.get(position).getName());
+                    i.putExtra("city_name",itemView.getTag().toString());
                     mContext.startActivity(i);
                 }
             });
@@ -154,6 +154,7 @@ class CityRecyclerViewAdapter extends RecyclerView.Adapter<CityRecyclerViewAdapt
         } else {
             holder.listRowBg.setBackgroundDrawable(defaultShape);
         }
+        holder.continer.setTag(mCities.get(position).getName());
     }
 
     @Override
