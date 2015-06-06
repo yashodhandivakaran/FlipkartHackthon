@@ -18,7 +18,7 @@ public class CategoriesTable {
     //Create Table Query
     public static final String TABLE_CREATE =
             "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ("
-                    + NAME + " TEXT PRIMARY KEY," +
+                    + NAME + " TEXT ," +
                     COUNT+" INT, " +
                     CITY+" TEXT );";
 

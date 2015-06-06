@@ -252,8 +252,10 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
 
     @Override
     public void onValueSelected(Entry e, int dataSetIndex, Highlight h) {
+
         Intent i = new Intent(getActivity(),CityCategoriesActivity.class);
-        i.putExtra("city_name",mCities.get(dataSetIndex).getName());
+        String name = mCities.get(dataSetIndex).getName();
+        i.putExtra("city_name",mCities.get(h.getXIndex()).getName());
         startActivity(i);
 
     }

@@ -83,7 +83,8 @@ public class CityCategoriesActivityFragment extends Fragment implements GetCateg
     public void onValueSelected(Entry e, int dataSetIndex, Highlight h) {
         Intent i = new Intent(getActivity(),TweetsListActivity.class);
         i.putExtra("city_name",mCityName);
-        i.putExtra("category_name",mCategories.get(dataSetIndex).getName());
+        String cat = mCategories.get(dataSetIndex).getName();
+        i.putExtra("category_name",mCategories.get(h.getXIndex()).getName());
         startActivity(i);
     }
 
