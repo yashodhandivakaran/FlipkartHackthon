@@ -113,7 +113,7 @@ public class FKDBWrapper {
 
     public List<Categories> getCategories(Cities city) {
         SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
-        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, CategoriesTable.CITY + " =? ", new String[]{city.getName()}
+        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, CategoriesTable.CITY + " = ? ", new String[]{city.getName()}
                 , null, null, null);
         //cursor.moveToFirst();
         ArrayList<Categories> categoriesesList = new ArrayList<Categories>();

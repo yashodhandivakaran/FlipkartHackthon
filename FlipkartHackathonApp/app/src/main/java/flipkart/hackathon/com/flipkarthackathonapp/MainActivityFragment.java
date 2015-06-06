@@ -54,6 +54,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
     int materialColors[];
     PieDataSet dataSet;
     FrameLayout listButton;
+    int totalTweetCount;
 
     List<Cities> mCities;
     TextView city1;
@@ -126,6 +127,8 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
                     ArrayList<Tweets> tweets = new ArrayList<Tweets>();
 
                     int totalTweets = jsonObject.getInt("total_count");
+                    totalTweetCount= totalTweets;
+
                     JSONArray list = jsonObject.getJSONArray("list");
                     for (int i = 0; i < list.length(); i++) {
 
@@ -239,9 +242,9 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         animateChart();
         pieChart.setOnChartValueSelectedListener(this);
 
-        city1.setText(citieses.get(0).getName()+" : "+citieses.get(0).getCount());
-        city2.setText(citieses.get(1).getName()+" : "+citieses.get(1).getCount());
-        city3.setText(citieses.get(2).getName()+" : "+citieses.get(2).getCount());
+        city1.setText(citieses.get(0).getName().toUpperCase()+" : "+citieses.get(0).getCount());
+        city2.setText(citieses.get(1).getName().toUpperCase()+" : "+citieses.get(1).getCount());
+        city3.setText(citieses.get(2).getName().toUpperCase()+" : "+citieses.get(2).getCount());
 
         listButton.setOnClickListener(this);
 
