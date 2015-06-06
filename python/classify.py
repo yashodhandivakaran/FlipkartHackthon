@@ -39,8 +39,8 @@ def train(file_path):
 def train_n_test(file_path):
 	data = load_data(file_path)
 	random.shuffle(data)
-	train = data[0:80]
-	test = data[80:]
+	train = data[0:110]
+	test = data[110:]
 	#classifier = NaiveBayesClassifier(train)
 	classifier = NaiveBayesClassifier(train,feature_extractor=get_features)
 	print classifier.accuracy(test)

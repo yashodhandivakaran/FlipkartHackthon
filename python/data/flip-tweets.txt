@@ -135,3 +135,5 @@ Coupon code is valid but it does not get applied,transact
 10x bigger package than the product size.,warehouse
 Ordered by Flipkart.com, Packed with snapdeal package,warehouse
 Professional blunder by @Flipkart Ordered on #flipkart, got the product in #Snapdeal package.,warehouse
+I'm not able to make payment throught hdfc netbanking :((((,transact
+why does flipkart store my netbanking credentials,transact
