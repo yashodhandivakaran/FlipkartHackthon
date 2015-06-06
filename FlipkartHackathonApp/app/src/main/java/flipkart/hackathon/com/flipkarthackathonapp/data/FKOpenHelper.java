@@ -13,7 +13,7 @@ import flipkart.hackathon.com.flipkarthackathonapp.data.tables.TweetsTable;
  */
 public class FKOpenHelper extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "twitter_login.db";
+    public static final String DATABASE_NAME = "fk_tweets.db";
     public static final int DATABASE_VERSION = 1;
 
     public FKOpenHelper(Context context) {

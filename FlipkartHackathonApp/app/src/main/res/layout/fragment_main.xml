@@ -23,34 +23,36 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City 1: 10%"
-                    android:textSize="20sp"
+                    android:id="@+id/city1"
+                    android:textSize="15sp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City 2: 20%"
-                    android:textSize="20sp"
+                    android:id="@+id/city2"
+                    android:textSize="15sp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="City 3: 30%"
-                    android:textSize="20sp"
+                    android:id="@+id/city3"
+                    android:textSize="15sp"
                     />
             </LinearLayout>
         </android.support.v7.widget.CardView>
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="30dp"
+            android:background="@color/teal_A700"
             android:id="@+id/listButton">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="List"
+                android:text="Show All Cities"
                 android:textSize="15sp"
-                android:layout_gravity="center_horizontal" />
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center" />
         </FrameLayout>
     </LinearLayout>
     <android.support.v7.widget.CardView
@@ -58,13 +60,12 @@
         android:layout_weight="2"
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp">
-        <com.github.mikephil.charting.charts.PieChart
-            android:id="@+id/pieChart"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-
-            >
-        </com.github.mikephil.charting.charts.PieChart>
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.github.mikephil.charting.charts.PieChart>
     </android.support.v7.widget.CardView>
 
 </LinearLayout>

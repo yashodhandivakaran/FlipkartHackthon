@@ -49,6 +49,11 @@ public class Cities implements Parcelable {
     }
     public Cities(){}
 
+    public Cities(Parcel parcel){
+        this.name = parcel.readString();
+        this.count = parcel.readInt();
+    }
+
 
     public Cities(String name) {
         this.name = name;
@@ -70,4 +75,17 @@ public class Cities implements Parcelable {
         parcel.writeInt(count);
 
     }
+
+    public static Creator<Cities> CREATOR = new Creator<Cities>() {
+
+        @Override
+        public Cities createFromParcel(Parcel source) {
+            return new Cities(source);
+        }
+
+        @Override
+        public Cities[] newArray(int size) {
+            return new Cities[size];
+        }
+    };
 }

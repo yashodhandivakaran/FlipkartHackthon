@@ -37,12 +37,13 @@ public class FKDBWrapper {
     private void insetCity(Cities city) {
         FKOpenHelper dbHelper = new FKOpenHelper(mContext);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
-        db.beginTransaction();
+        //db.beginTransaction();
 
-        db.insertWithOnConflict(CitiesTable.TABLE_NAME, null,
+        long row = db.insertWithOnConflict(CitiesTable.TABLE_NAME, null,
                 CitiesTable.getContentValueObject(city),
                 SQLiteDatabase.CONFLICT_IGNORE);
-        db.endTransaction();
+        //db.endTransaction();
+        db.close();
 
     }
 
@@ -56,12 +57,13 @@ public class FKDBWrapper {
     private void insertCategory(Categories category) {
         FKOpenHelper dbHelper = new FKOpenHelper(mContext);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
-        db.beginTransaction();
+        //db.beginTransaction();
 
-        db.insertWithOnConflict(CategoriesTable.TABLE_NAME, null,
+        long row = db.insertWithOnConflict(CategoriesTable.TABLE_NAME, null,
                 CategoriesTable.getContentValueObject(category),
                 SQLiteDatabase.CONFLICT_IGNORE);
-        db.endTransaction();
+        //db.endTransaction();
+        db.close();
 
     }
 
@@ -74,35 +76,52 @@ public class FKDBWrapper {
     private void insertTweet(Tweets tweet) {
         FKOpenHelper dbHelper = new FKOpenHelper(mContext);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
-        db.beginTransaction();
+        //db.beginTransaction();
 
         db.insertWithOnConflict(TweetsTable.TABLE_NAME, null,
                 TweetsTable.getContentValueObject(tweet),
                 SQLiteDatabase.CONFLICT_IGNORE);
-        db.endTransaction();
+        //db.endTransaction();
+        db.close();
     }
 
     public List<Cities> getCities() {
         SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
         Cursor cursor = sqlite.query(CitiesTable.TABLE_NAME, null, null, null, null, null, null);
-        cursor.moveToFirst();
+        //cursor.moveToFirst();
         ArrayList<Cities> citiesList = new ArrayList<Cities>();
-        while (cursor != null) {
+        while (cursor.moveToNext()) {
             citiesList.add(new Cities(cursor));
-            cursor.moveToNext();
+            //cursor.moveToNext();
         }
+        sqlite.close();
         return citiesList;
     }
 
     public List<Categories> getCategories() {
         SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
         Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, null, null, null, null, null);
-        cursor.moveToFirst();
+        //cursor.moveToFirst();
         ArrayList<Categories> categoriesesList = new ArrayList<Categories>();
-        while (cursor != null) {
+        while (cursor.moveToNext()) {
             categoriesesList.add(new Categories(cursor));
-            cursor.moveToNext();
+            //cursor.moveToNext();
         }
+        sqlite.close();
+        return categoriesesList;
+    }
+
+    public List<Categories> getCategories(Cities city) {
+        SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
+        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, CategoriesTable.CITY + " =? ", new String[]{city.getName()}
+                , null, null, null);
+        //cursor.moveToFirst();
+        ArrayList<Categories> categoriesesList = new ArrayList<Categories>();
+        while (cursor.moveToNext()) {
+            categoriesesList.add(new Categories(cursor));
+            //cursor.moveToNext();
+        }
+        sqlite.close();
         return categoriesesList;
     }
 
@@ -113,12 +132,13 @@ public class FKDBWrapper {
                         TweetsTable.CATEGORY, TweetsTable.TWEET_ID, TweetsTable.TWEET_TEXT},
                 TweetsTable.CITY + "=? AND " + TweetsTable.CATEGORY + "=? "
                 , new String[]{city.getName(), category.getName()}, null, null, null);
-        cursor.moveToFirst();
+        //cursor.moveToFirst();
         ArrayList<Tweets> tweetsList = new ArrayList<Tweets>();
-        while (cursor != null) {
+        while (cursor.moveToNext()) {
             tweetsList.add(new Tweets(cursor));
-            cursor.moveToNext();
+            //cursor.moveToNext();
         }
+        sqlite.close();
         return tweetsList;
 
     }

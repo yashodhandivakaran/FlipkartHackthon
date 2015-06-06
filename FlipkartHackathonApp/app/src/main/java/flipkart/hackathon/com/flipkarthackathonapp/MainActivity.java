@@ -30,12 +30,6 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         MainActivityFragment fragment= ((MainActivityFragment)getSupportFragmentManager().findFragmentById(R.id.fragment));
         //noinspection SimplifiableIfStatement
-        if (id == R.id.animate) {
-            fragment.animateChart();
-        }
-        if (id == R.id.redraw) {
-            fragment.redrawColor();
-        }
         return super.onOptionsItemSelected(item);
     }
 }
