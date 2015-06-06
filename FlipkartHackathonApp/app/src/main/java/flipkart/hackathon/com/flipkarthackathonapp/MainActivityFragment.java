@@ -54,6 +54,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
     int materialColors[];
     PieDataSet dataSet;
     FrameLayout listButton;
+    int totalTweetCount;
 
     List<Cities> mCities;
     TextView city1;
@@ -126,6 +127,8 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
                     ArrayList<Tweets> tweets = new ArrayList<Tweets>();
 
                     int totalTweets = jsonObject.getInt("total_count");
+                    totalTweetCount= totalTweets;
+
                     JSONArray list = jsonObject.getJSONArray("list");
                     for (int i = 0; i < list.length(); i++) {
 
