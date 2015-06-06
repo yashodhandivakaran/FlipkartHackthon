@@ -22,6 +22,9 @@
         <activity
             android:name=".CityCategoriesActivity">
         </activity>
+        <activity
+            android:name=".TweetsListActivity">
+        </activity>
     </application>
 
 </manifest>

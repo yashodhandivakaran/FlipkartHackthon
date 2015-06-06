@@ -100,6 +100,7 @@ public class MainActivityFragment extends Fragment {
             }
         });
 
+        animateChart();
         return mainView;
     }
 
