@@ -21,7 +21,7 @@ public class CategoriesTable {
             "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ("
                     + NAME + " TEXT PRIMARY KEY," +
                     COUNT+" INT, " +
-                    CITY+"TEXT );";
+                    CITY+" TEXT );";
 
     public static ContentValues getContentValueObject(Categories action) {
         ContentValues cv = new ContentValues();

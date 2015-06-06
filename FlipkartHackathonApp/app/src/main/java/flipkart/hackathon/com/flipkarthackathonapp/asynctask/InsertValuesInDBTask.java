@@ -15,6 +15,12 @@ import flipkart.hackathon.com.flipkarthackathonapp.data.entities.Tweets;
  */
 public class InsertValuesInDBTask extends AsyncTask<Void, Void, Void> {
 
+
+    private Context mContext;
+    private ArrayList<Cities> citieses;
+    private ArrayList<Categories> categorieses;
+    private ArrayList<Tweets> tweetses;
+
     public interface InsertionDone{
         public void updateUI();
     }
@@ -29,14 +35,9 @@ public class InsertValuesInDBTask extends AsyncTask<Void, Void, Void> {
         this.mListener = listener;
     }
 
-    private Context mContext;
-    private ArrayList<Cities> citieses;
-    private ArrayList<Categories> categorieses;
-    private ArrayList<Tweets> tweetses;
-
-
     @Override
     protected Void doInBackground(Void... params) {
+
         FKDBWrapper dbWrapper = new FKDBWrapper(mContext);
         dbWrapper.insertCities(citieses);
         dbWrapper.insertCategories(categorieses);

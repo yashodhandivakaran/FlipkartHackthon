@@ -118,7 +118,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
             }
         });
 
-        animateChart();
+        //animateChart();
         return mainView;
     }
 
@@ -132,7 +132,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
     @Override
     public void updateUI() {
         GetCitiesFromDB task = new GetCitiesFromDB(getActivity(), this);
-        //task.execute();
+        task.execute();
     }
 
     private void makeNetworkCall() {
@@ -181,51 +181,6 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
                     InsertValuesInDBTask task = new InsertValuesInDBTask(getActivity(), citieses, categorieses, tweets,MainActivityFragment.this);
                     task.execute();
 
-                    List<Entry> vals = new ArrayList<>();
-
-                    Entry val1= new Entry(20,0);
-                    Entry val2= new Entry(30,0);
-                    Entry val3= new Entry(10,0);
-                    Entry val4= new Entry(50,0);
-                    Entry val5= new Entry(10,0);
-                    Entry val6= new Entry(20,0);
-                    Entry val7= new Entry(5,0);
-                    Entry val8= new Entry(15,0);
-                    Entry val9= new Entry(25,0);
-
-                    vals.add(val1);
-                    vals.add(val2);
-                    vals.add(val3);
-                    vals.add(val4);
-                    vals.add(val5);
-                    vals.add(val6);
-                    vals.add(val7);
-                    vals.add(val8);
-                    vals.add(val9);
-
-                    List<String> labels = new ArrayList<>();
-                    for(Cities city: citieses){
-                        vals.add(new Entry(city.getCount(),0));
-                        labels.add(city.getName());
-                    }
-
-                    dataSet = new PieDataSet(vals,"Customer Satisfaction");
-                    Typeface tf = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
-                    dataSet.setValueTypeface(tf);
-                    dataSet.setValueTextSize(9f);
-
-                    PieData data = new PieData(labels,dataSet);
-                    pieChart.setData(data);
-                    pieChart.setUsePercentValues(true);
-                    pieChart.setDrawSliceText(false);
-
-                    redrawColor();
-                    //pieChart.setTouchEnabled(true);
-
-                    Legend legend = pieChart.getLegend();
-                    legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);
-                    pieChart.invalidate();
-
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -263,10 +218,10 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
                 getActivity().getResources().getColor(R.color.amber_A100)};
 
 
-        int colors[] = new int[9];
+        int colors[] = new int[12];
         Random rand = new Random();
-        int baseColor = rand.nextInt(9);
-        for(int i =0;i<9;i++){
+        int baseColor = rand.nextInt(12);
+        for(int i =0;i<12;i++){
             colors[i] = materialColors[(baseColor+i)%12];
         }
         dataSet.setColors(colors);
@@ -300,6 +255,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         Legend legend = pieChart.getLegend();
         legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);
         pieChart.invalidate();
+        animateChart();
 
 
     }
