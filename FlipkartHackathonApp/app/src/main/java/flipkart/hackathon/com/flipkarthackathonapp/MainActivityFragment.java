@@ -74,56 +74,6 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         city2 = (TextView)mainView.findViewById(R.id.city2);
         city3 = (TextView)mainView.findViewById(R.id.city3);
 
-        /*List<Entry> vals = new ArrayList<>();
-
-        Entry val1= new Entry(20,0);
-        Entry val2= new Entry(30,1);
-        Entry val3= new Entry(10,2);
-        Entry val4= new Entry(50,3);
-        Entry val5= new Entry(10,4);
-        Entry val6= new Entry(20,5);
-        Entry val7= new Entry(5,6);
-        Entry val8= new Entry(15,7);
-        Entry val9= new Entry(25,8);
-
-        vals.add(val1);
-        vals.add(val2);
-        vals.add(val3);
-        vals.add(val4);
-        vals.add(val5);
-        vals.add(val6);
-        vals.add(val7);
-        vals.add(val8);
-        vals.add(val9);
-
-        dataSet = new PieDataSet(vals,"Customer Satisfaction");
-        Typeface tf = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
-        dataSet.setValueTypeface(tf);
-        dataSet.setValueTextSize(9f);
-
-        List<String> labels = new ArrayList<>();
-        labels.add("Bangalore");
-        labels.add("B");
-        labels.add("C");
-        labels.add("D");
-        labels.add("E");
-        labels.add("F");
-        labels.add("G");
-        labels.add("H");
-        labels.add("I");
-
-        PieData data = new PieData(labels,dataSet);
-        pieChart.setData(data);
-        pieChart.setUsePercentValues(true);
-        pieChart.setDrawSliceText(false);
-        pieChart.setDescription("");
-
-        redrawColor();
-        //pieChart.setTouchEnabled(true);
-
-        Legend legend = pieChart.getLegend();
-        legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);*/
-
         listButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -248,10 +198,10 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         Random rand = new Random();
         int baseColor = rand.nextInt(size);
         for(int i =0;i<size;i++){
-            colors[i] = materialColors[(baseColor+i)%size];
+            colors[i] = materialColors[i];
         }
         dataSet.setColors(colors);
-
+        pieChart.invalidate();
     }
 
     @Override
@@ -262,20 +212,9 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         List<String> labels = new ArrayList<>();
         int count = 0;
         for(Cities city: citieses){
-
             vals.add(new Entry(city.getCount(),count++));
-            //labels.add(city.getName());
+            labels.add(city.getName());
         }
-        labels.add("Bangalore");
-        labels.add("B");
-        labels.add("C");
-        labels.add("D");
-        labels.add("E");
-        labels.add("F");
-        labels.add("G");
-        labels.add("H");
-        labels.add("I");
-        labels.add("J");
 
         dataSet = new PieDataSet(vals,"Customer Satisfaction");
         Typeface tf = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
@@ -286,13 +225,17 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         pieChart.setData(data);
         pieChart.setUsePercentValues(true);
         pieChart.setDrawSliceText(false);
+        pieChart.setDescription("");
+
 
         redrawColor(citieses.size());
         pieChart.setTouchEnabled(true);
 
         Legend legend = pieChart.getLegend();
         legend.setPosition(Legend.LegendPosition.RIGHT_OF_CHART_CENTER);
+
         pieChart.invalidate();
+        pieChart.notifyDataSetChanged();
         animateChart();
         pieChart.setOnChartValueSelectedListener(this);
 
