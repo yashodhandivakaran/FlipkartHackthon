@@ -32,7 +32,6 @@ def train(file_path):
 	""" train the classifier using the provided file """
 	data = load_data(file_path)
 	random.shuffle(data)
-	print data
 	classifier = NaiveBayesClassifier(data,feature_extractor=get_features)
 	#classifier = NaiveBayesClassifier(data)
 	utils.store_classifier(classifier,CLASSIFIER_FILE_NAME)
