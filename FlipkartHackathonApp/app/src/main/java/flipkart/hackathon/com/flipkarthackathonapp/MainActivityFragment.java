@@ -181,6 +181,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
                     InsertValuesInDBTask task = new InsertValuesInDBTask(getActivity(), citieses, categorieses, tweets,MainActivityFragment.this);
                     task.execute();
 
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -201,7 +202,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         pieChart.animateXY(1000, 1000, Easing.EasingOption.Linear,Easing.EasingOption.Linear);
     }
 
-    public void redrawColor(){
+    public void redrawColor(int size){
         pieChart.invalidate();
         materialColors = new int[]{
                 getActivity().getResources().getColor(R.color.red_A100),
@@ -218,11 +219,11 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
                 getActivity().getResources().getColor(R.color.amber_A100)};
 
 
-        int colors[] = new int[12];
+        int colors[] = new int[size];
         Random rand = new Random();
-        int baseColor = rand.nextInt(12);
-        for(int i =0;i<12;i++){
-            colors[i] = materialColors[(baseColor+i)%12];
+        int baseColor = rand.nextInt(size);
+        for(int i =0;i<size;i++){
+            colors[i] = materialColors[(baseColor+i)%size];
         }
         dataSet.setColors(colors);
 
@@ -249,7 +250,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         pieChart.setUsePercentValues(true);
         pieChart.setDrawSliceText(false);
 
-        redrawColor();
+        redrawColor(citieses.size());
         //pieChart.setTouchEnabled(true);
 
         Legend legend = pieChart.getLegend();

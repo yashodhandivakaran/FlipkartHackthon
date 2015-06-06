@@ -3,7 +3,6 @@ package flipkart.hackathon.com.flipkarthackathonapp.data.tables;
 import android.content.ContentValues;
 
 import flipkart.hackathon.com.flipkarthackathonapp.data.entities.Categories;
-import flipkart.hackathon.com.flipkarthackathonapp.data.entities.Cities;
 
 /**
  * Created by webyog on 06/06/15.
