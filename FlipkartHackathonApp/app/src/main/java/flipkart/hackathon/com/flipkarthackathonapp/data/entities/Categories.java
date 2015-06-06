@@ -18,6 +18,16 @@ public class Categories implements Parcelable {
     private String name;
     private int count;
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    private String city;
+
     public int getCount() {
         return count;
     }
@@ -37,6 +47,7 @@ public class Categories implements Parcelable {
     public Categories(Cursor cursor) {
         this.name = cursor.getString(cursor.getColumnIndexOrThrow(CategoriesTable.NAME));
         this.count = cursor.getInt(cursor.getColumnIndexOrThrow(CategoriesTable.COUNT));
+        this.city = cursor.getString(cursor.getColumnIndexOrThrow(CategoriesTable.CITY));
     }
 
 
@@ -44,6 +55,7 @@ public class Categories implements Parcelable {
         try {
             this.name = result.getString(CategoriesTable.NAME);
             this.count = result.getInt(CategoriesTable.COUNT);
+            this.city = result.getString(CategoriesTable.CITY);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -62,6 +74,12 @@ public class Categories implements Parcelable {
         this.count = count;
     }
 
+    public Categories(String name, int count,String city) {
+        this.name = name;
+        this.count = count;
+        this.city = city;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -70,6 +88,8 @@ public class Categories implements Parcelable {
     @Override
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(name);
+        parcel.writeInt(count);
+        parcel.writeString(city);
 
     }
 }

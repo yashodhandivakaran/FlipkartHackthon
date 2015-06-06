@@ -39,10 +39,11 @@ public class FKDBWrapper {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         db.beginTransaction();
 
-        db.insertWithOnConflict(CitiesTable.TABLE_NAME, null,
+        long row = db.insertWithOnConflict(CitiesTable.TABLE_NAME, null,
                 CitiesTable.getContentValueObject(city),
                 SQLiteDatabase.CONFLICT_IGNORE);
         db.endTransaction();
+        db.close();
 
     }
 
@@ -58,10 +59,11 @@ public class FKDBWrapper {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         db.beginTransaction();
 
-        db.insertWithOnConflict(CategoriesTable.TABLE_NAME, null,
+        long row = db.insertWithOnConflict(CategoriesTable.TABLE_NAME, null,
                 CategoriesTable.getContentValueObject(category),
                 SQLiteDatabase.CONFLICT_IGNORE);
         db.endTransaction();
+        db.close();
 
     }
 
@@ -80,6 +82,7 @@ public class FKDBWrapper {
                 TweetsTable.getContentValueObject(tweet),
                 SQLiteDatabase.CONFLICT_IGNORE);
         db.endTransaction();
+        db.close();
     }
 
     public List<Cities> getCities() {
@@ -91,6 +94,7 @@ public class FKDBWrapper {
             citiesList.add(new Cities(cursor));
             cursor.moveToNext();
         }
+        sqlite.close();
         return citiesList;
     }
 
@@ -103,6 +107,21 @@ public class FKDBWrapper {
             categoriesesList.add(new Categories(cursor));
             cursor.moveToNext();
         }
+        sqlite.close();
+        return categoriesesList;
+    }
+
+    public List<Categories> getCategories(Cities city) {
+        SQLiteDatabase sqlite = dbHelper.getReadableDatabase();
+        Cursor cursor = sqlite.query(CategoriesTable.TABLE_NAME, null, CategoriesTable.CITY + " =? ", new String[]{city.getName()}
+                , null, null, null);
+        cursor.moveToFirst();
+        ArrayList<Categories> categoriesesList = new ArrayList<Categories>();
+        while (cursor != null) {
+            categoriesesList.add(new Categories(cursor));
+            cursor.moveToNext();
+        }
+        sqlite.close();
         return categoriesesList;
     }
 
@@ -119,6 +138,7 @@ public class FKDBWrapper {
             tweetsList.add(new Tweets(cursor));
             cursor.moveToNext();
         }
+        sqlite.close();
         return tweetsList;
 
     }
