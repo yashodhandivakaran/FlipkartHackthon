@@ -474,7 +474,7 @@ p165
 I00
 sS'contains(product)'
 p166
-I00
+I01
 sS'contains(app)'
 p167
 I00
@@ -583,7 +583,7 @@ I00
 sS'contains(page)'
 p202
 I00
-sVgeneral
+sVdoctype
 p203
 tp204
 a((dp205
@@ -601,7 +601,7 @@ p209
 I00
 sS'contains(place)'
 p210
-I01
+I00
 sS'contains(shipment)'
 p211
 I00
@@ -773,7 +773,7 @@ I00
 sS'contains(page)'
 p267
 I00
-sVtransact
+sVapp
 p268
 tp269
 a((dp270
@@ -788,7 +788,7 @@ p273
 I00
 sS'contains(coupon)'
 p274
-I00
+I01
 sS'contains(place)'
 p275
 I00
@@ -857,7 +857,7 @@ p296
 I00
 sS'contains(app)'
 p297
-I01
+I00
 sS'contains(replac)'
 p298
 I00
@@ -878,7 +878,7 @@ p303
 I00
 sS'contains(android)'
 p304
-I01
+I00
 sS'contains(otp)'
 p305
 I00
@@ -963,7 +963,7 @@ I00
 sS'contains(page)'
 p332
 I00
-sVapp
+sVtransact
 p333
 tp334
 a((dp335
@@ -978,7 +978,7 @@ p338
 I00
 sS'contains(coupon)'
 p339
-I01
+I00
 sS'contains(place)'
 p340
 I00
@@ -1044,7 +1044,7 @@ p360
 I00
 sS'contains(product)'
 p361
-I00
+I01
 sS'contains(app)'
 p362
 I00
@@ -1153,7 +1153,7 @@ I00
 sS'contains(page)'
 p397
 I00
-sVtransact
+sVdoctype
 p398
 tp399
 a((dp400
@@ -1177,13 +1177,13 @@ p406
 I00
 sS'contains(email)'
 p407
-I01
+I00
 sS'contains(usernam)'
 p408
 I00
 sS'contains(card)'
 p409
-I00
+I01
 sS'contains(site)'
 p410
 I00
@@ -1210,7 +1210,7 @@ p417
 I00
 sS'contains(debit)'
 p418
-I00
+I01
 sS'contains(account)'
 p419
 I00
@@ -1300,7 +1300,7 @@ p447
 I00
 sS'contains(order)'
 p448
-I01
+I00
 sS'contains(maestro)'
 p449
 I00
@@ -1343,7 +1343,7 @@ I00
 sS'contains(page)'
 p462
 I00
-sVuser_cluster
+sVtransact
 p463
 tp464
 a((dp465
@@ -1361,13 +1361,13 @@ p469
 I00
 sS'contains(place)'
 p470
-I00
+I01
 sS'contains(shipment)'
 p471
 I00
 sS'contains(email)'
 p472
-I00
+I01
 sS'contains(usernam)'
 p473
 I00
@@ -1415,7 +1415,7 @@ p487
 I00
 sS'contains(address)'
 p488
-I00
+I01
 sS'contains(signup)'
 p489
 I00
@@ -1490,7 +1490,7 @@ p512
 I00
 sS'contains(order)'
 p513
-I00
+I01
 sS'contains(maestro)'
 p514
 I00
@@ -1514,10 +1514,10 @@ p520
 I00
 sS'contains(discount)'
 p521
-I01
+I00
 sS'contains(offer)'
 p522
-I01
+I00
 sS'contains(search)'
 p523
 I00
@@ -1533,7 +1533,7 @@ I00
 sS'contains(page)'
 p527
 I00
-sVpromotions
+sVuser_cluster
 p528
 tp529
 a((dp530
@@ -1614,7 +1614,7 @@ p555
 I00
 sS'contains(product)'
 p556
-I01
+I00
 sS'contains(app)'
 p557
 I00
@@ -1644,7 +1644,7 @@ p565
 I00
 sS'contains(money)'
 p566
-I00
+I01
 sS'contains(master)'
 p567
 I00
@@ -1723,7 +1723,7 @@ I00
 sS'contains(page)'
 p592
 I00
-sVdoctype
+sVgeneral
 p593
 tp594
 a((dp595
@@ -1834,7 +1834,7 @@ p630
 I00
 sS'contains(money)'
 p631
-I01
+I00
 sS'contains(master)'
 p632
 I00
@@ -1906,14 +1906,14 @@ p654
 I00
 sS'contains(refund)'
 p655
-I01
+I00
 sS'contains(password)'
 p656
 I00
 sS'contains(page)'
 p657
 I00
-sVself_serve
+sVgeneral
 p658
 tp659
 a((dp660
@@ -1931,7 +1931,7 @@ p664
 I00
 sS'contains(place)'
 p665
-I01
+I00
 sS'contains(shipment)'
 p666
 I00
@@ -1994,7 +1994,7 @@ p685
 I00
 sS'contains(product)'
 p686
-I01
+I00
 sS'contains(app)'
 p687
 I00
@@ -2103,7 +2103,7 @@ I00
 sS'contains(page)'
 p722
 I00
-sVtransact
+sVsupply_chain
 p723
 tp724
 a((dp725
@@ -2163,7 +2163,7 @@ p743
 I00
 sS'contains(account)'
 p744
-I01
+I00
 sS'contains(payment)'
 p745
 I00
@@ -2175,7 +2175,7 @@ p747
 I00
 sS'contains(address)'
 p748
-I00
+I01
 sS'contains(signup)'
 p749
 I00
@@ -2205,7 +2205,7 @@ p757
 I00
 sS'contains(deliveri)'
 p758
-I00
+I01
 sS'contains(android)'
 p759
 I00
@@ -2374,7 +2374,7 @@ p815
 I00
 sS'contains(product)'
 p816
-I00
+I01
 sS'contains(app)'
 p817
 I00
@@ -2428,7 +2428,7 @@ p833
 I00
 sS'contains(pack)'
 p834
-I00
+I01
 sS'contains(cancel)'
 p835
 I00
@@ -2483,7 +2483,7 @@ I00
 sS'contains(page)'
 p852
 I00
-sVgeneral
+sVwarehouse
 p853
 tp854
 a((dp855
@@ -2558,7 +2558,7 @@ p878
 I00
 sS'contains(signup)'
 p879
-I01
+I00
 sS'contains(websit)'
 p880
 I00
@@ -2591,7 +2591,7 @@ p889
 I00
 sS'contains(otp)'
 p890
-I01
+I00
 sS'contains(money)'
 p891
 I00
@@ -2673,7 +2673,7 @@ I00
 sS'contains(page)'
 p917
 I00
-sVuser_cluster
+sVgeneral
 p918
 tp919
 a((dp920
@@ -2733,7 +2733,7 @@ p938
 I00
 sS'contains(account)'
 p939
-I00
+I01
 sS'contains(payment)'
 p940
 I00
@@ -2754,7 +2754,7 @@ p945
 I00
 sS'contains(product)'
 p946
-I01
+I00
 sS'contains(app)'
 p947
 I00
@@ -2863,7 +2863,7 @@ I00
 sS'contains(page)'
 p982
 I00
-sVgeneral
+sVuser_cluster
 p983
 tp984
 a((dp985
@@ -2887,7 +2887,7 @@ p991
 I00
 sS'contains(email)'
 p992
-I00
+I01
 sS'contains(usernam)'
 p993
 I00
@@ -3043,7 +3043,7 @@ p1043
 I00
 sS'contains(user)'
 p1044
-I00
+I01
 sS'contains(refund)'
 p1045
 I00
@@ -3053,7 +3053,7 @@ I00
 sS'contains(page)'
 p1047
 I00
-sVsupply_chain
+sVuser_cluster
 p1048
 tp1049
 a((dp1050
@@ -3206,7 +3206,7 @@ p1099
 I00
 sS'contains(deliv)'
 p1100
-I00
+I01
 sS'contains(visa)'
 p1101
 I00
@@ -3463,7 +3463,7 @@ p1188
 I00
 sS'contains(card)'
 p1189
-I00
+I01
 sS'contains(site)'
 p1190
 I00
@@ -3623,7 +3623,7 @@ I00
 sS'contains(page)'
 p1242
 I00
-sVsupply_chain
+sVtransact
 p1243
 tp1244
 a((dp1245
@@ -3704,7 +3704,7 @@ p1270
 I00
 sS'contains(product)'
 p1271
-I00
+I01
 sS'contains(app)'
 p1272
 I00
@@ -3725,7 +3725,7 @@ p1277
 I00
 sS'contains(deliveri)'
 p1278
-I00
+I01
 sS'contains(android)'
 p1279
 I00
@@ -3894,7 +3894,7 @@ p1335
 I00
 sS'contains(product)'
 p1336
-I00
+I01
 sS'contains(app)'
 p1337
 I00
@@ -3984,10 +3984,10 @@ p1365
 I00
 sS'contains(discount)'
 p1366
-I01
+I00
 sS'contains(offer)'
 p1367
-I01
+I00
 sS'contains(search)'
 p1368
 I00
@@ -3996,14 +3996,14 @@ p1369
 I00
 sS'contains(refund)'
 p1370
-I00
+I01
 sS'contains(password)'
 p1371
 I00
 sS'contains(page)'
 p1372
 I00
-sVpromotions
+sVself_serve
 p1373
 tp1374
 a((dp1375
@@ -4193,7 +4193,7 @@ I00
 sS'contains(page)'
 p1437
 I00
-sVgeneral
+sVdoctype
 p1438
 tp1439
 a((dp1440
@@ -4383,7 +4383,7 @@ I00
 sS'contains(page)'
 p1502
 I00
-sVdoctype
+sVgeneral
 p1503
 tp1504
 a((dp1505
@@ -4464,7 +4464,7 @@ p1530
 I00
 sS'contains(product)'
 p1531
-I00
+I01
 sS'contains(app)'
 p1532
 I00
@@ -4485,7 +4485,7 @@ p1537
 I00
 sS'contains(deliveri)'
 p1538
-I00
+I01
 sS'contains(android)'
 p1539
 I00
@@ -4530,7 +4530,7 @@ p1552
 I00
 sS'contains(order)'
 p1553
-I00
+I01
 sS'contains(maestro)'
 p1554
 I00
@@ -4554,7 +4554,7 @@ p1560
 I00
 sS'contains(discount)'
 p1561
-I01
+I00
 sS'contains(offer)'
 p1562
 I00
@@ -4573,7 +4573,7 @@ I00
 sS'contains(page)'
 p1567
 I00
-sVpromotions
+sVsupply_chain
 p1568
 tp1569
 a((dp1570
@@ -4594,7 +4594,7 @@ p1575
 I00
 sS'contains(shipment)'
 p1576
-I01
+I00
 sS'contains(email)'
 p1577
 I00
@@ -4971,7 +4971,7 @@ p1704
 I00
 sS'contains(place)'
 p1705
-I00
+I01
 sS'contains(shipment)'
 p1706
 I00
@@ -5034,7 +5034,7 @@ p1725
 I00
 sS'contains(product)'
 p1726
-I00
+I01
 sS'contains(app)'
 p1727
 I00
@@ -5100,7 +5100,7 @@ p1747
 I00
 sS'contains(order)'
 p1748
-I00
+I01
 sS'contains(maestro)'
 p1749
 I00
@@ -5143,7 +5143,7 @@ I00
 sS'contains(page)'
 p1762
 I00
-sVapp
+sVtransact
 p1763
 tp1764
 a((dp1765
@@ -5224,7 +5224,7 @@ p1790
 I00
 sS'contains(product)'
 p1791
-I01
+I00
 sS'contains(app)'
 p1792
 I00
@@ -5290,7 +5290,7 @@ p1812
 I00
 sS'contains(order)'
 p1813
-I00
+I01
 sS'contains(maestro)'
 p1814
 I00
@@ -5314,7 +5314,7 @@ p1820
 I00
 sS'contains(discount)'
 p1821
-I01
+I00
 sS'contains(offer)'
 p1822
 I00
@@ -5332,8 +5332,8 @@ p1826
 I00
 sS'contains(page)'
 p1827
-I01
-sVdoctype
+I00
+sVgeneral
 p1828
 tp1829
 a((dp1830
@@ -5417,7 +5417,7 @@ p1856
 I00
 sS'contains(app)'
 p1857
-I00
+I01
 sS'contains(replac)'
 p1858
 I00
@@ -5523,7 +5523,7 @@ I00
 sS'contains(page)'
 p1892
 I00
-sVself_serve
+sVdoctype
 p1893
 tp1894
 a((dp1895
@@ -5604,7 +5604,7 @@ p1920
 I00
 sS'contains(product)'
 p1921
-I01
+I00
 sS'contains(app)'
 p1922
 I00
@@ -5713,7 +5713,7 @@ I00
 sS'contains(page)'
 p1957
 I00
-sVdoctype
+sVsupply_chain
 p1958
 tp1959
 a((dp1960
@@ -5903,7 +5903,7 @@ I00
 sS'contains(page)'
 p2022
 I00
-sVdoctype
+sVgeneral
 p2023
 tp2024
 a((dp2025
@@ -5984,10 +5984,10 @@ p2050
 I00
 sS'contains(product)'
 p2051
-I00
+I01
 sS'contains(app)'
 p2052
-I01
+I00
 sS'contains(replac)'
 p2053
 I00
@@ -6050,7 +6050,7 @@ p2072
 I00
 sS'contains(order)'
 p2073
-I00
+I01
 sS'contains(maestro)'
 p2074
 I00
@@ -6093,7 +6093,7 @@ I00
 sS'contains(page)'
 p2087
 I00
-sVdoctype
+sVwarehouse
 p2088
 tp2089
 a((dp2090
@@ -6111,7 +6111,7 @@ p2094
 I00
 sS'contains(place)'
 p2095
-I00
+I01
 sS'contains(shipment)'
 p2096
 I00
@@ -6186,7 +6186,7 @@ p2119
 I00
 sS'contains(sign)'
 p2120
-I01
+I00
 sS'contains(status)'
 p2121
 I00
@@ -6283,7 +6283,7 @@ I00
 sS'contains(page)'
 p2152
 I00
-sVuser_cluster
+sVsupply_chain
 p2153
 tp2154
 a((dp2155
@@ -6370,7 +6370,7 @@ p2182
 I00
 sS'contains(replac)'
 p2183
-I00
+I01
 sS'contains(spec)'
 p2184
 I00
@@ -6473,7 +6473,7 @@ I00
 sS'contains(page)'
 p2217
 I00
-sVgeneral
+sVself_serve
 p2218
 tp2219
 a((dp2220
@@ -6557,7 +6557,7 @@ p2246
 I00
 sS'contains(app)'
 p2247
-I01
+I00
 sS'contains(replac)'
 p2248
 I00
@@ -6663,7 +6663,7 @@ I00
 sS'contains(page)'
 p2282
 I00
-sVapp
+sVgeneral
 p2283
 tp2284
 a((dp2285
@@ -6726,7 +6726,7 @@ p2304
 I00
 sS'contains(payment)'
 p2305
-I00
+I01
 sS'contains(filter)'
 p2306
 I00
@@ -6853,7 +6853,7 @@ I00
 sS'contains(page)'
 p2347
 I00
-sVself_serve
+sVtransact
 p2348
 tp2349
 a((dp2350
@@ -6868,7 +6868,7 @@ p2353
 I00
 sS'contains(coupon)'
 p2354
-I01
+I00
 sS'contains(place)'
 p2355
 I00
@@ -7043,7 +7043,7 @@ I00
 sS'contains(page)'
 p2412
 I00
-sVtransact
+sVgeneral
 p2413
 tp2414
 a((dp2415
@@ -7067,7 +7067,7 @@ p2421
 I00
 sS'contains(email)'
 p2422
-I00
+I01
 sS'contains(usernam)'
 p2423
 I00
@@ -7190,7 +7190,7 @@ p2462
 I00
 sS'contains(order)'
 p2463
-I00
+I01
 sS'contains(maestro)'
 p2464
 I00
@@ -7214,10 +7214,10 @@ p2470
 I00
 sS'contains(discount)'
 p2471
-I01
+I00
 sS'contains(offer)'
 p2472
-I01
+I00
 sS'contains(search)'
 p2473
 I00
@@ -7233,7 +7233,7 @@ I00
 sS'contains(page)'
 p2477
 I00
-sVpromotions
+sVuser_cluster
 p2478
 tp2479
 a((dp2480
@@ -7248,7 +7248,7 @@ p2483
 I00
 sS'contains(coupon)'
 p2484
-I00
+I01
 sS'contains(place)'
 p2485
 I00
@@ -7263,7 +7263,7 @@ p2488
 I00
 sS'contains(card)'
 p2489
-I01
+I00
 sS'contains(site)'
 p2490
 I00
@@ -7383,7 +7383,7 @@ p2528
 I00
 sS'contains(maestro)'
 p2529
-I01
+I00
 sS'contains(deliv)'
 p2530
 I00
@@ -7507,7 +7507,7 @@ p2571
 I00
 sS'contains(app)'
 p2572
-I00
+I01
 sS'contains(replac)'
 p2573
 I00
@@ -7613,7 +7613,7 @@ I00
 sS'contains(page)'
 p2607
 I00
-sVgeneral
+sVapp
 p2608
 tp2609
 a((dp2610
@@ -7634,7 +7634,7 @@ p2615
 I00
 sS'contains(shipment)'
 p2616
-I00
+I01
 sS'contains(email)'
 p2617
 I00
@@ -7803,7 +7803,7 @@ I00
 sS'contains(page)'
 p2672
 I00
-sVgeneral
+sVsupply_chain
 p2673
 tp2674
 a((dp2675
@@ -7993,7 +7993,7 @@ I00
 sS'contains(page)'
 p2737
 I00
-sVgeneral
+sVuser_cluster
 p2738
 tp2739
 a((dp2740
@@ -8183,7 +8183,7 @@ I00
 sS'contains(page)'
 p2802
 I00
-sVdoctype
+sVgeneral
 p2803
 tp2804
 a((dp2805
@@ -8246,7 +8246,7 @@ p2824
 I00
 sS'contains(payment)'
 p2825
-I00
+I01
 sS'contains(filter)'
 p2826
 I00
@@ -8267,7 +8267,7 @@ p2831
 I00
 sS'contains(app)'
 p2832
-I01
+I00
 sS'contains(replac)'
 p2833
 I00
@@ -8309,7 +8309,7 @@ p2845
 I00
 sS'contains(credit)'
 p2846
-I00
+I01
 sS'contains(pictur)'
 p2847
 I00
@@ -8373,7 +8373,7 @@ I00
 sS'contains(page)'
 p2867
 I00
-sVapp
+sVtransact
 p2868
 tp2869
 a((dp2870
@@ -8391,7 +8391,7 @@ p2874
 I00
 sS'contains(place)'
 p2875
-I00
+I01
 sS'contains(shipment)'
 p2876
 I00
@@ -8563,7 +8563,7 @@ I00
 sS'contains(page)'
 p2932
 I00
-sVsupply_chain
+sVtransact
 p2933
 tp2934
 a((dp2935
@@ -8753,7 +8753,7 @@ I00
 sS'contains(page)'
 p2997
 I00
-sVgeneral
+sVdoctype
 p2998
 tp2999
 a((dp3000
@@ -8891,7 +8891,7 @@ p3044
 I00
 sS'contains(cancel)'
 p3045
-I00
+I01
 sS'contains(bank)'
 p3046
 I00
@@ -8900,7 +8900,7 @@ p3047
 I00
 sS'contains(order)'
 p3048
-I00
+I01
 sS'contains(maestro)'
 p3049
 I00
@@ -8943,7 +8943,7 @@ I00
 sS'contains(page)'
 p3062
 I00
-sVsupply_chain
+sVself_serve
 p3063
 tp3064
 a((dp3065
@@ -9027,7 +9027,7 @@ p3091
 I00
 sS'contains(app)'
 p3092
-I00
+I01
 sS'contains(replac)'
 p3093
 I00
@@ -9048,7 +9048,7 @@ p3098
 I00
 sS'contains(android)'
 p3099
-I00
+I01
 sS'contains(otp)'
 p3100
 I00
@@ -9133,7 +9133,7 @@ I00
 sS'contains(page)'
 p3127
 I00
-sVgeneral
+sVapp
 p3128
 tp3129
 a((dp3130
@@ -9271,7 +9271,7 @@ p3174
 I00
 sS'contains(cancel)'
 p3175
-I01
+I00
 sS'contains(bank)'
 p3176
 I00
@@ -9280,7 +9280,7 @@ p3177
 I00
 sS'contains(order)'
 p3178
-I01
+I00
 sS'contains(maestro)'
 p3179
 I00
@@ -9323,7 +9323,7 @@ I00
 sS'contains(page)'
 p3192
 I00
-sVself_serve
+sVsupply_chain
 p3193
 tp3194
 a((dp3195
@@ -9425,7 +9425,7 @@ p3227
 I00
 sS'contains(deliveri)'
 p3228
-I00
+I01
 sS'contains(android)'
 p3229
 I00
@@ -9513,7 +9513,7 @@ I00
 sS'contains(page)'
 p3257
 I00
-sVgeneral
+sVsupply_chain
 p3258
 tp3259
 a((dp3260
@@ -9537,7 +9537,7 @@ p3266
 I00
 sS'contains(email)'
 p3267
-I01
+I00
 sS'contains(usernam)'
 p3268
 I00
@@ -9687,13 +9687,13 @@ p3316
 I00
 sS'contains(offer)'
 p3317
-I00
+I01
 sS'contains(search)'
 p3318
 I00
 sS'contains(user)'
 p3319
-I01
+I00
 sS'contains(refund)'
 p3320
 I00
@@ -9703,7 +9703,7 @@ I00
 sS'contains(page)'
 p3322
 I00
-sVuser_cluster
+sVpromotions
 p3323
 tp3324
 a((dp3325
@@ -9784,7 +9784,7 @@ p3350
 I00
 sS'contains(product)'
 p3351
-I01
+I00
 sS'contains(app)'
 p3352
 I00
@@ -9814,7 +9814,7 @@ p3360
 I00
 sS'contains(money)'
 p3361
-I00
+I01
 sS'contains(master)'
 p3362
 I00
@@ -9850,7 +9850,7 @@ p3372
 I00
 sS'contains(order)'
 p3373
-I01
+I00
 sS'contains(maestro)'
 p3374
 I00
@@ -9886,14 +9886,14 @@ p3384
 I00
 sS'contains(refund)'
 p3385
-I00
+I01
 sS'contains(password)'
 p3386
 I00
 sS'contains(page)'
 p3387
 I00
-sVwarehouse
+sVself_serve
 p3388
 tp3389
 a((dp3390
@@ -10031,7 +10031,7 @@ p3434
 I00
 sS'contains(cancel)'
 p3435
-I00
+I01
 sS'contains(bank)'
 p3436
 I00
@@ -10076,7 +10076,7 @@ p3449
 I00
 sS'contains(refund)'
 p3450
-I01
+I00
 sS'contains(password)'
 p3451
 I00
@@ -10194,7 +10194,7 @@ p3490
 I00
 sS'contains(money)'
 p3491
-I00
+I01
 sS'contains(master)'
 p3492
 I00
@@ -10206,7 +10206,7 @@ p3494
 I00
 sS'contains(return)'
 p3495
-I00
+I01
 sS'contains(credit)'
 p3496
 I00
@@ -10273,7 +10273,7 @@ I00
 sS'contains(page)'
 p3517
 I00
-sVgeneral
+sVself_serve
 p3518
 tp3519
 a((dp3520
@@ -10303,7 +10303,7 @@ p3528
 I00
 sS'contains(card)'
 p3529
-I00
+I01
 sS'contains(site)'
 p3530
 I00
@@ -10351,7 +10351,7 @@ p3544
 I00
 sS'contains(websit)'
 p3545
-I00
+I01
 sS'contains(product)'
 p3546
 I00
@@ -10423,7 +10423,7 @@ p3568
 I00
 sS'contains(maestro)'
 p3569
-I00
+I01
 sS'contains(deliv)'
 p3570
 I00
@@ -10463,7 +10463,7 @@ I00
 sS'contains(page)'
 p3582
 I00
-sVgeneral
+sVtransact
 p3583
 tp3584
 a((dp3585
@@ -10610,7 +10610,7 @@ p3632
 I00
 sS'contains(order)'
 p3633
-I01
+I00
 sS'contains(maestro)'
 p3634
 I00
@@ -10653,7 +10653,7 @@ I00
 sS'contains(page)'
 p3647
 I00
-sVsupply_chain
+sVdoctype
 p3648
 tp3649
 a((dp3650
@@ -10918,7 +10918,7 @@ p3738
 I00
 sS'contains(signup)'
 p3739
-I00
+I01
 sS'contains(websit)'
 p3740
 I00
@@ -10951,7 +10951,7 @@ p3749
 I00
 sS'contains(otp)'
 p3750
-I00
+I01
 sS'contains(money)'
 p3751
 I00
@@ -11033,7 +11033,7 @@ I00
 sS'contains(page)'
 p3777
 I00
-sVgeneral
+sVuser_cluster
 p3778
 tp3779
 a((dp3780
@@ -11117,7 +11117,7 @@ p3806
 I01
 sS'contains(app)'
 p3807
-I01
+I00
 sS'contains(replac)'
 p3808
 I00
@@ -11223,7 +11223,7 @@ I00
 sS'contains(page)'
 p3842
 I00
-sVapp
+sVgeneral
 p3843
 tp3844
 a((dp3845
@@ -11334,7 +11334,7 @@ p3880
 I00
 sS'contains(money)'
 p3881
-I01
+I00
 sS'contains(master)'
 p3882
 I00
@@ -11406,7 +11406,7 @@ p3904
 I00
 sS'contains(refund)'
 p3905
-I00
+I01
 sS'contains(password)'
 p3906
 I00
@@ -11497,7 +11497,7 @@ p3936
 I00
 sS'contains(app)'
 p3937
-I01
+I00
 sS'contains(replac)'
 p3938
 I00
@@ -11603,7 +11603,7 @@ I00
 sS'contains(page)'
 p3972
 I00
-sVapp
+sVgeneral
 p3973
 tp3974
 a((dp3975
@@ -11793,7 +11793,7 @@ I00
 sS'contains(page)'
 p4037
 I00
-sVuser_cluster
+sVsupply_chain
 p4038
 tp4039
 a((dp4040
@@ -11964,7 +11964,7 @@ p4095
 I00
 sS'contains(discount)'
 p4096
-I00
+I01
 sS'contains(offer)'
 p4097
 I00
@@ -11983,7 +11983,7 @@ I00
 sS'contains(page)'
 p4102
 I00
-sVgeneral
+sVpromotions
 p4103
 tp4104
 a((dp4105
@@ -12085,7 +12085,7 @@ p4137
 I00
 sS'contains(deliveri)'
 p4138
-I00
+I01
 sS'contains(android)'
 p4139
 I00
@@ -12100,7 +12100,7 @@ p4142
 I00
 sS'contains(desktop)'
 p4143
-I01
+I00
 sS'contains(packag)'
 p4144
 I00
@@ -12130,7 +12130,7 @@ p4152
 I00
 sS'contains(order)'
 p4153
-I00
+I01
 sS'contains(maestro)'
 p4154
 I00
@@ -12160,7 +12160,7 @@ p4162
 I00
 sS'contains(search)'
 p4163
-I01
+I00
 sS'contains(user)'
 p4164
 I00
@@ -12173,7 +12173,7 @@ I00
 sS'contains(page)'
 p4167
 I00
-sVdoctype
+sVtransact
 p4168
 tp4169
 a((dp4170
@@ -12203,7 +12203,7 @@ p4178
 I00
 sS'contains(card)'
 p4179
-I01
+I00
 sS'contains(site)'
 p4180
 I00
@@ -12363,7 +12363,7 @@ I00
 sS'contains(page)'
 p4232
 I00
-sVtransact
+sVwarehouse
 p4233
 tp4234
 a((dp4235
@@ -12393,7 +12393,7 @@ p4243
 I00
 sS'contains(card)'
 p4244
-I00
+I01
 sS'contains(site)'
 p4245
 I00
@@ -12534,10 +12534,10 @@ p4290
 I00
 sS'contains(discount)'
 p4291
-I01
+I00
 sS'contains(offer)'
 p4292
-I01
+I00
 sS'contains(search)'
 p4293
 I00
@@ -12553,7 +12553,7 @@ I00
 sS'contains(page)'
 p4297
 I00
-sVpromotions
+sVtransact
 p4298
 tp4299
 a((dp4300
@@ -12577,7 +12577,7 @@ p4306
 I00
 sS'contains(email)'
 p4307
-I00
+I01
 sS'contains(usernam)'
 p4308
 I00
@@ -12652,7 +12652,7 @@ p4331
 I00
 sS'contains(web)'
 p4332
-I00
+I01
 sS'contains(deliveri)'
 p4333
 I00
@@ -12739,11 +12739,11 @@ p4360
 I00
 sS'contains(password)'
 p4361
-I00
+I01
 sS'contains(page)'
 p4362
-I00
-sVdoctype
+I01
+sVuser_cluster
 p4363
 tp4364
 a((dp4365
@@ -12761,7 +12761,7 @@ p4369
 I00
 sS'contains(place)'
 p4370
-I01
+I00
 sS'contains(shipment)'
 p4371
 I00
@@ -12803,7 +12803,7 @@ p4383
 I00
 sS'contains(account)'
 p4384
-I01
+I00
 sS'contains(payment)'
 p4385
 I00
@@ -12824,7 +12824,7 @@ p4390
 I00
 sS'contains(product)'
 p4391
-I00
+I01
 sS'contains(app)'
 p4392
 I00
@@ -12854,7 +12854,7 @@ p4400
 I00
 sS'contains(money)'
 p4401
-I01
+I00
 sS'contains(master)'
 p4402
 I00
@@ -12884,13 +12884,13 @@ p4410
 I00
 sS'contains(bank)'
 p4411
-I01
+I00
 sS'contains(browser)'
 p4412
 I00
 sS'contains(order)'
 p4413
-I01
+I00
 sS'contains(maestro)'
 p4414
 I00
@@ -12902,7 +12902,7 @@ p4416
 I00
 sS'contains(brows)'
 p4417
-I00
+I01
 sS'contains(photo)'
 p4418
 I00
@@ -12933,7 +12933,7 @@ I00
 sS'contains(page)'
 p4427
 I00
-sVtransact
+sVdoctype
 p4428
 tp4429
 a((dp4430
@@ -13123,7 +13123,7 @@ I00
 sS'contains(page)'
 p4492
 I00
-sVdoctype
+sVapp
 p4493
 tp4494
 a((dp4495
@@ -13294,7 +13294,7 @@ p4550
 I00
 sS'contains(discount)'
 p4551
-I00
+I01
 sS'contains(offer)'
 p4552
 I00
@@ -13313,7 +13313,7 @@ I00
 sS'contains(page)'
 p4557
 I00
-sVgeneral
+sVpromotions
 p4558
 tp4559
 a((dp4560
@@ -13394,7 +13394,7 @@ p4585
 I00
 sS'contains(product)'
 p4586
-I01
+I00
 sS'contains(app)'
 p4587
 I00
@@ -13460,7 +13460,7 @@ p4607
 I00
 sS'contains(order)'
 p4608
-I01
+I00
 sS'contains(maestro)'
 p4609
 I00
@@ -13490,7 +13490,7 @@ p4617
 I00
 sS'contains(search)'
 p4618
-I00
+I01
 sS'contains(user)'
 p4619
 I00
@@ -13503,7 +13503,7 @@ I00
 sS'contains(page)'
 p4622
 I00
-sVsupply_chain
+sVdoctype
 p4623
 tp4624
 a((dp4625
@@ -13590,7 +13590,7 @@ p4652
 I00
 sS'contains(replac)'
 p4653
-I00
+I01
 sS'contains(spec)'
 p4654
 I00
@@ -13693,7 +13693,7 @@ I00
 sS'contains(page)'
 p4687
 I00
-sVtransact
+sVgeneral
 p4688
 tp4689
 a((dp4690
@@ -13756,7 +13756,7 @@ p4709
 I00
 sS'contains(payment)'
 p4710
-I01
+I00
 sS'contains(filter)'
 p4711
 I00
@@ -13819,7 +13819,7 @@ p4730
 I00
 sS'contains(credit)'
 p4731
-I01
+I00
 sS'contains(pictur)'
 p4732
 I00
@@ -13883,7 +13883,7 @@ I00
 sS'contains(page)'
 p4752
 I00
-sVtransact
+sVgeneral
 p4753
 tp4754
 a((dp4755
@@ -13907,7 +13907,7 @@ p4761
 I00
 sS'contains(email)'
 p4762
-I01
+I00
 sS'contains(usernam)'
 p4763
 I00
@@ -13934,7 +13934,7 @@ p4770
 I00
 sS'contains(reset)'
 p4771
-I01
+I00
 sS'contains(specif)'
 p4772
 I00
@@ -14069,11 +14069,11 @@ p4815
 I00
 sS'contains(password)'
 p4816
-I01
+I00
 sS'contains(page)'
 p4817
 I00
-sVuser_cluster
+sVpromotions
 p4818
 tp4819
 a((dp4820
@@ -14157,7 +14157,7 @@ p4846
 I00
 sS'contains(app)'
 p4847
-I00
+I01
 sS'contains(replac)'
 p4848
 I00
@@ -14244,7 +14244,7 @@ p4875
 I00
 sS'contains(discount)'
 p4876
-I01
+I00
 sS'contains(offer)'
 p4877
 I00
@@ -14263,7 +14263,7 @@ I00
 sS'contains(page)'
 p4882
 I00
-sVpromotions
+sVapp
 p4883
 tp4884
 a((dp4885
@@ -14600,7 +14600,7 @@ p4997
 I00
 sS'contains(order)'
 p4998
-I01
+I00
 sS'contains(maestro)'
 p4999
 I00
@@ -14624,10 +14624,10 @@ p5005
 I00
 sS'contains(discount)'
 p5006
-I00
+I01
 sS'contains(offer)'
 p5007
-I00
+I01
 sS'contains(search)'
 p5008
 I00
@@ -14643,7 +14643,7 @@ I00
 sS'contains(page)'
 p5012
 I00
-sVapp
+sVpromotions
 p5013
 tp5014
 a((dp5015
@@ -14655,7 +14655,7 @@ p5017
 I00
 sS'contains(netbank)'
 p5018
-I00
+I01
 sS'contains(coupon)'
 p5019
 I00
@@ -14781,7 +14781,7 @@ p5059
 I00
 sS'contains(cancel)'
 p5060
-I01
+I00
 sS'contains(bank)'
 p5061
 I00
@@ -14790,7 +14790,7 @@ p5062
 I00
 sS'contains(order)'
 p5063
-I01
+I00
 sS'contains(maestro)'
 p5064
 I00
@@ -14833,7 +14833,7 @@ I00
 sS'contains(page)'
 p5077
 I00
-sVself_serve
+sVtransact
 p5078
 tp5079
 a((dp5080
@@ -14926,7 +14926,7 @@ p5109
 I00
 sS'contains(sign)'
 p5110
-I00
+I01
 sS'contains(status)'
 p5111
 I00
@@ -15023,7 +15023,7 @@ I00
 sS'contains(page)'
 p5142
 I00
-sVgeneral
+sVuser_cluster
 p5143
 tp5144
 a((dp5145
@@ -15104,7 +15104,7 @@ p5170
 I00
 sS'contains(product)'
 p5171
-I01
+I00
 sS'contains(app)'
 p5172
 I00
@@ -15158,7 +15158,7 @@ p5188
 I00
 sS'contains(pack)'
 p5189
-I01
+I00
 sS'contains(cancel)'
 p5190
 I00
@@ -15213,7 +15213,7 @@ I00
 sS'contains(page)'
 p5207
 I00
-sVwarehouse
+sVgeneral
 p5208
 tp5209
 a((dp5210
@@ -15360,7 +15360,7 @@ p5257
 I00
 sS'contains(order)'
 p5258
-I01
+I00
 sS'contains(maestro)'
 p5259
 I00
@@ -15454,7 +15454,7 @@ p5290
 I00
 sS'contains(reset)'
 p5291
-I01
+I00
 sS'contains(specif)'
 p5292
 I00
@@ -15589,11 +15589,11 @@ p5335
 I00
 sS'contains(password)'
 p5336
-I01
+I00
 sS'contains(page)'
 p5337
 I00
-sVuser_cluster
+sVgeneral
 p5338
 tp5339
 a((dp5340
@@ -15653,7 +15653,7 @@ p5358
 I00
 sS'contains(account)'
 p5359
-I01
+I00
 sS'contains(payment)'
 p5360
 I00
@@ -15671,7 +15671,7 @@ p5364
 I00
 sS'contains(websit)'
 p5365
-I00
+I01
 sS'contains(product)'
 p5366
 I00
@@ -15783,7 +15783,7 @@ I00
 sS'contains(page)'
 p5402
 I00
-sVuser_cluster
+sVdoctype
 p5403
 tp5404
 a((dp5405
@@ -15936,7 +15936,7 @@ p5454
 I00
 sS'contains(deliv)'
 p5455
-I00
+I01
 sS'contains(visa)'
 p5456
 I00
@@ -15973,7 +15973,7 @@ I00
 sS'contains(page)'
 p5467
 I00
-sVdoctype
+sVgeneral
 p5468
 tp5469
 a((dp5470
@@ -16003,7 +16003,7 @@ p5478
 I00
 sS'contains(card)'
 p5479
-I01
+I00
 sS'contains(site)'
 p5480
 I00
@@ -16030,7 +16030,7 @@ p5487
 I00
 sS'contains(debit)'
 p5488
-I01
+I00
 sS'contains(account)'
 p5489
 I00
@@ -16163,7 +16163,7 @@ I00
 sS'contains(page)'
 p5532
 I00
-sVtransact
+sVgeneral
 p5533
 tp5534
 a((dp5535
@@ -16353,7 +16353,7 @@ I00
 sS'contains(page)'
 p5597
 I00
-sVsupply_chain
+sVgeneral
 p5598
 tp5599
 a((dp5600
@@ -16371,13 +16371,13 @@ p5604
 I00
 sS'contains(place)'
 p5605
-I01
+I00
 sS'contains(shipment)'
 p5606
 I00
 sS'contains(email)'
 p5607
-I01
+I00
 sS'contains(usernam)'
 p5608
 I00
@@ -16425,7 +16425,7 @@ p5622
 I00
 sS'contains(address)'
 p5623
-I01
+I00
 sS'contains(signup)'
 p5624
 I00
@@ -16500,7 +16500,7 @@ p5647
 I00
 sS'contains(order)'
 p5648
-I01
+I00
 sS'contains(maestro)'
 p5649
 I00
@@ -16524,10 +16524,10 @@ p5655
 I00
 sS'contains(discount)'
 p5656
-I00
+I01
 sS'contains(offer)'
 p5657
-I00
+I01
 sS'contains(search)'
 p5658
 I00
@@ -16543,7 +16543,7 @@ I00
 sS'contains(page)'
 p5662
 I00
-sVuser_cluster
+sVpromotions
 p5663
 tp5664
 a((dp5665
@@ -16564,7 +16564,7 @@ p5670
 I00
 sS'contains(shipment)'
 p5671
-I00
+I01
 sS'contains(email)'
 p5672
 I00
@@ -16573,7 +16573,7 @@ p5673
 I00
 sS'contains(card)'
 p5674
-I01
+I00
 sS'contains(site)'
 p5675
 I00
@@ -16733,7 +16733,7 @@ I00
 sS'contains(page)'
 p5727
 I00
-sVtransact
+sVsupply_chain
 p5728
 tp5729
 a((dp5730
@@ -16757,7 +16757,7 @@ p5736
 I00
 sS'contains(email)'
 p5737
-I00
+I01
 sS'contains(usernam)'
 p5738
 I00
@@ -16784,7 +16784,7 @@ p5745
 I00
 sS'contains(reset)'
 p5746
-I00
+I01
 sS'contains(specif)'
 p5747
 I00
@@ -16919,11 +16919,11 @@ p5790
 I00
 sS'contains(password)'
 p5791
-I00
+I01
 sS'contains(page)'
 p5792
 I00
-sVgeneral
+sVuser_cluster
 p5793
 tp5794
 a((dp5795
@@ -17004,7 +17004,7 @@ p5820
 I00
 sS'contains(product)'
 p5821
-I00
+I01
 sS'contains(app)'
 p5822
 I00
@@ -17070,7 +17070,7 @@ p5842
 I00
 sS'contains(order)'
 p5843
-I00
+I01
 sS'contains(maestro)'
 p5844
 I00
@@ -17113,7 +17113,7 @@ I00
 sS'contains(page)'
 p5857
 I00
-sVsupply_chain
+sVwarehouse
 p5858
 tp5859
 a((dp5860
@@ -17194,7 +17194,7 @@ p5885
 I00
 sS'contains(product)'
 p5886
-I01
+I00
 sS'contains(app)'
 p5887
 I00
@@ -17303,7 +17303,7 @@ I00
 sS'contains(page)'
 p5922
 I00
-sVdoctype
+sVgeneral
 p5923
 tp5924
 a((dp5925
@@ -17324,7 +17324,7 @@ p5930
 I00
 sS'contains(shipment)'
 p5931
-I01
+I00
 sS'contains(email)'
 p5932
 I00
@@ -17474,10 +17474,10 @@ p5980
 I00
 sS'contains(discount)'
 p5981
-I00
+I01
 sS'contains(offer)'
 p5982
-I00
+I01
 sS'contains(search)'
 p5983
 I00
@@ -17493,7 +17493,7 @@ I00
 sS'contains(page)'
 p5987
 I00
-sVsupply_chain
+sVpromotions
 p5988
 tp5989
 a((dp5990
@@ -17589,7 +17589,7 @@ p6020
 I00
 sS'contains(status)'
 p6021
-I00
+I01
 sS'contains(web)'
 p6022
 I00
@@ -17683,7 +17683,7 @@ I00
 sS'contains(page)'
 p6052
 I00
-sVgeneral
+sVself_serve
 p6053
 tp6054
 a((dp6055
@@ -17866,14 +17866,14 @@ p6114
 I00
 sS'contains(refund)'
 p6115
-I01
+I00
 sS'contains(password)'
 p6116
 I00
 sS'contains(page)'
 p6117
 I00
-sVself_serve
+sVgeneral
 p6118
 tp6119
 a((dp6120
@@ -17897,7 +17897,7 @@ p6126
 I00
 sS'contains(email)'
 p6127
-I01
+I00
 sS'contains(usernam)'
 p6128
 I00
@@ -17972,7 +17972,7 @@ p6151
 I00
 sS'contains(web)'
 p6152
-I01
+I00
 sS'contains(deliveri)'
 p6153
 I00
@@ -18011,7 +18011,7 @@ p6164
 I00
 sS'contains(cancel)'
 p6165
-I00
+I01
 sS'contains(bank)'
 p6166
 I00
@@ -18020,7 +18020,7 @@ p6167
 I00
 sS'contains(order)'
 p6168
-I00
+I01
 sS'contains(maestro)'
 p6169
 I00
@@ -18056,14 +18056,14 @@ p6179
 I00
 sS'contains(refund)'
 p6180
-I00
+I01
 sS'contains(password)'
 p6181
-I01
+I00
 sS'contains(page)'
 p6182
-I01
-sVuser_cluster
+I00
+sVself_serve
 p6183
 tp6184
 a((dp6185
@@ -18147,7 +18147,7 @@ p6211
 I00
 sS'contains(app)'
 p6212
-I00
+I01
 sS'contains(replac)'
 p6213
 I00
@@ -18253,7 +18253,7 @@ I00
 sS'contains(page)'
 p6247
 I00
-sVsupply_chain
+sVapp
 p6248
 tp6249
 a((dp6250
@@ -18424,10 +18424,10 @@ p6305
 I00
 sS'contains(discount)'
 p6306
-I00
+I01
 sS'contains(offer)'
 p6307
-I00
+I01
 sS'contains(search)'
 p6308
 I00
@@ -18443,7 +18443,7 @@ I00
 sS'contains(page)'
 p6312
 I00
-sVdoctype
+sVpromotions
 p6313
 tp6314
 a((dp6315
@@ -18620,7 +18620,7 @@ p6372
 I00
 sS'contains(search)'
 p6373
-I01
+I00
 sS'contains(user)'
 p6374
 I00
@@ -18633,7 +18633,7 @@ I00
 sS'contains(page)'
 p6377
 I00
-sVdoctype
+sVgeneral
 p6378
 tp6379
 a((dp6380
@@ -18768,7 +18768,7 @@ p6423
 I00
 sS'contains(pack)'
 p6424
-I01
+I00
 sS'contains(cancel)'
 p6425
 I00
@@ -18780,13 +18780,13 @@ p6427
 I00
 sS'contains(order)'
 p6428
-I01
+I00
 sS'contains(maestro)'
 p6429
 I00
 sS'contains(deliv)'
 p6430
-I00
+I01
 sS'contains(visa)'
 p6431
 I00
@@ -18823,7 +18823,7 @@ I00
 sS'contains(page)'
 p6442
 I00
-sVwarehouse
+sVsupply_chain
 p6443
 tp6444
 a((dp6445
@@ -18847,7 +18847,7 @@ p6451
 I00
 sS'contains(email)'
 p6452
-I00
+I01
 sS'contains(usernam)'
 p6453
 I00
@@ -18874,7 +18874,7 @@ p6460
 I00
 sS'contains(reset)'
 p6461
-I00
+I01
 sS'contains(specif)'
 p6462
 I00
@@ -18904,7 +18904,7 @@ p6470
 I00
 sS'contains(product)'
 p6471
-I01
+I00
 sS'contains(app)'
 p6472
 I00
@@ -19009,11 +19009,11 @@ p6505
 I00
 sS'contains(password)'
 p6506
-I00
+I01
 sS'contains(page)'
 p6507
 I00
-sVwarehouse
+sVuser_cluster
 p6508
 tp6509
 a((dp6510
@@ -19064,7 +19064,7 @@ p6525
 I00
 sS'contains(reset)'
 p6526
-I00
+I01
 sS'contains(specif)'
 p6527
 I00
@@ -19199,11 +19199,11 @@ p6570
 I00
 sS'contains(password)'
 p6571
-I00
+I01
 sS'contains(page)'
 p6572
 I00
-sVsupply_chain
+sVuser_cluster
 p6573
 tp6574
 a((dp6575
@@ -19266,7 +19266,7 @@ p6594
 I00
 sS'contains(payment)'
 p6595
-I01
+I00
 sS'contains(filter)'
 p6596
 I00
@@ -19393,7 +19393,7 @@ I00
 sS'contains(page)'
 p6637
 I00
-sVtransact
+sVapp
 p6638
 tp6639
 a((dp6640
@@ -19474,10 +19474,10 @@ p6665
 I00
 sS'contains(product)'
 p6666
-I00
+I01
 sS'contains(app)'
 p6667
-I00
+I01
 sS'contains(replac)'
 p6668
 I00
@@ -19583,7 +19583,7 @@ I00
 sS'contains(page)'
 p6702
 I00
-sVsupply_chain
+sVapp
 p6703
 tp6704
 a((dp6705
@@ -19601,7 +19601,7 @@ p6709
 I00
 sS'contains(place)'
 p6710
-I01
+I00
 sS'contains(shipment)'
 p6711
 I00
@@ -19700,7 +19700,7 @@ p6742
 I00
 sS'contains(desktop)'
 p6743
-I00
+I01
 sS'contains(packag)'
 p6744
 I00
@@ -19760,7 +19760,7 @@ p6762
 I00
 sS'contains(search)'
 p6763
-I00
+I01
 sS'contains(user)'
 p6764
 I00
@@ -19773,7 +19773,7 @@ I00
 sS'contains(page)'
 p6767
 I00
-sVsupply_chain
+sVdoctype
 p6768
 tp6769
 a((dp6770
@@ -19854,7 +19854,7 @@ p6795
 I00
 sS'contains(product)'
 p6796
-I01
+I00
 sS'contains(app)'
 p6797
 I00
@@ -19920,7 +19920,7 @@ p6817
 I00
 sS'contains(order)'
 p6818
-I01
+I00
 sS'contains(maestro)'
 p6819
 I00
@@ -19963,7 +19963,7 @@ I00
 sS'contains(page)'
 p6832
 I00
-sVwarehouse
+sVgeneral
 p6833
 tp6834
 a((dp6835
@@ -20101,7 +20101,7 @@ p6879
 I00
 sS'contains(cancel)'
 p6880
-I01
+I00
 sS'contains(bank)'
 p6881
 I00
@@ -20153,7 +20153,7 @@ I00
 sS'contains(page)'
 p6897
 I00
-sVsupply_chain
+sVgeneral
 p6898
 tp6899
 a((dp6900
@@ -20291,7 +20291,7 @@ p6944
 I00
 sS'contains(cancel)'
 p6945
-I01
+I00
 sS'contains(bank)'
 p6946
 I00
@@ -20300,7 +20300,7 @@ p6947
 I00
 sS'contains(order)'
 p6948
-I01
+I00
 sS'contains(maestro)'
 p6949
 I00
@@ -20336,14 +20336,14 @@ p6959
 I00
 sS'contains(refund)'
 p6960
-I01
+I00
 sS'contains(password)'
 p6961
 I00
 sS'contains(page)'
 p6962
 I00
-sVself_serve
+sVgeneral
 p6963
 tp6964
 a((dp6965
@@ -20545,7 +20545,7 @@ p7032
 I00
 sS'contains(netbank)'
 p7033
-I00
+I01
 sS'contains(coupon)'
 p7034
 I00
@@ -20596,7 +20596,7 @@ p7049
 I00
 sS'contains(payment)'
 p7050
-I00
+I01
 sS'contains(filter)'
 p7051
 I00
@@ -20680,7 +20680,7 @@ p7077
 I00
 sS'contains(order)'
 p7078
-I01
+I00
 sS'contains(maestro)'
 p7079
 I00
@@ -20843,7 +20843,7 @@ p7133
 I00
 sS'contains(packag)'
 p7134
-I00
+I01
 sS'contains(return)'
 p7135
 I00
@@ -20858,7 +20858,7 @@ p7138
 I00
 sS'contains(pack)'
 p7139
-I00
+I01
 sS'contains(cancel)'
 p7140
 I00
@@ -20870,7 +20870,7 @@ p7142
 I00
 sS'contains(order)'
 p7143
-I00
+I01
 sS'contains(maestro)'
 p7144
 I00
@@ -20906,14 +20906,14 @@ p7154
 I00
 sS'contains(refund)'
 p7155
-I01
+I00
 sS'contains(password)'
 p7156
 I00
 sS'contains(page)'
 p7157
 I00
-sVgeneral
+sVwarehouse
 p7158
 tp7159
 a((dp7160
@@ -21060,13 +21060,13 @@ p7207
 I00
 sS'contains(order)'
 p7208
-I00
+I01
 sS'contains(maestro)'
 p7209
 I00
 sS'contains(deliv)'
 p7210
-I00
+I01
 sS'contains(visa)'
 p7211
 I00
@@ -21103,7 +21103,7 @@ I00
 sS'contains(page)'
 p7222
 I00
-sVgeneral
+sVsupply_chain
 p7223
 tp7224
 a((dp7225
@@ -21293,7 +21293,7 @@ I00
 sS'contains(page)'
 p7287
 I00
-sVapp
+sVgeneral
 p7288
 tp7289
 a((dp7290
@@ -21356,7 +21356,7 @@ p7309
 I00
 sS'contains(payment)'
 p7310
-I01
+I00
 sS'contains(filter)'
 p7311
 I00
@@ -21483,7 +21483,7 @@ I00
 sS'contains(page)'
 p7352
 I00
-sVtransact
+sVdoctype
 p7353
 tp7354
 a((dp7355
@@ -21673,7 +21673,7 @@ I00
 sS'contains(page)'
 p7417
 I00
-sVgeneral
+sVdoctype
 p7418
 tp7419
 a((dp7420
@@ -21721,7 +21721,7 @@ p7434
 I00
 sS'contains(iphon)'
 p7435
-I00
+I01
 sS'contains(reset)'
 p7436
 I00
@@ -21802,7 +21802,7 @@ p7461
 I00
 sS'contains(pictur)'
 p7462
-I00
+I01
 sS'contains(io)'
 p7463
 I00
@@ -21863,7 +21863,7 @@ I00
 sS'contains(page)'
 p7482
 I00
-sVgeneral
+sVdoctype
 p7483
 tp7484
 a((dp7485
@@ -21974,7 +21974,7 @@ p7520
 I00
 sS'contains(money)'
 p7521
-I01
+I00
 sS'contains(master)'
 p7522
 I00
@@ -22046,14 +22046,14 @@ p7544
 I00
 sS'contains(refund)'
 p7545
-I01
+I00
 sS'contains(password)'
 p7546
 I00
 sS'contains(page)'
 p7547
 I00
-sVsupply_chain
+sVgeneral
 p7548
 tp7549
 a((dp7550
@@ -22134,7 +22134,7 @@ p7575
 I00
 sS'contains(product)'
 p7576
-I00
+I01
 sS'contains(app)'
 p7577
 I00
@@ -22173,7 +22173,7 @@ p7588
 I00
 sS'contains(packag)'
 p7589
-I00
+I01
 sS'contains(return)'
 p7590
 I00
@@ -22243,7 +22243,7 @@ I00
 sS'contains(page)'
 p7612
 I00
-sVgeneral
+sVwarehouse
 p7613
 tp7614
 a((dp7615
@@ -22324,7 +22324,7 @@ p7640
 I00
 sS'contains(product)'
 p7641
-I00
+I01
 sS'contains(app)'
 p7642
 I00
@@ -22414,7 +22414,7 @@ p7670
 I00
 sS'contains(discount)'
 p7671
-I00
+I01
 sS'contains(offer)'
 p7672
 I00
@@ -22432,8 +22432,8 @@ p7676
 I00
 sS'contains(page)'
 p7677
-I00
-sVgeneral
+I01
+sVdoctype
 p7678
 tp7679
 a((dp7680
@@ -22544,7 +22544,7 @@ p7715
 I00
 sS'contains(money)'
 p7716
-I00
+I01
 sS'contains(master)'
 p7717
 I00
@@ -22616,14 +22616,14 @@ p7739
 I00
 sS'contains(refund)'
 p7740
-I00
+I01
 sS'contains(password)'
 p7741
 I00
 sS'contains(page)'
 p7742
 I00
-sVwarehouse
+sVsupply_chain
 p7743
 tp7744
 a((dp7745
@@ -22776,7 +22776,7 @@ p7794
 I00
 sS'contains(deliv)'
 p7795
-I00
+I01
 sS'contains(visa)'
 p7796
 I00
@@ -22813,7 +22813,7 @@ I00
 sS'contains(page)'
 p7807
 I00
-sVpromotions
+sVsupply_chain
 p7808
 tp7809
 a((dp7810
@@ -22897,7 +22897,7 @@ p7836
 I00
 sS'contains(app)'
 p7837
-I01
+I00
 sS'contains(replac)'
 p7838
 I00
@@ -22966,7 +22966,7 @@ p7859
 I00
 sS'contains(deliv)'
 p7860
-I00
+I01
 sS'contains(visa)'
 p7861
 I00
@@ -23003,7 +23003,7 @@ I00
 sS'contains(page)'
 p7872
 I00
-sVapp
+sVsupply_chain
 p7873
 tp7874
 a((dp7875
@@ -23193,7 +23193,7 @@ I00
 sS'contains(page)'
 p7937
 I00
-sVgeneral
+sVself_serve
 p7938
 tp7939
 a((dp7940
@@ -23277,7 +23277,7 @@ p7966
 I00
 sS'contains(app)'
 p7967
-I01
+I00
 sS'contains(replac)'
 p7968
 I00
@@ -23340,7 +23340,7 @@ p7987
 I00
 sS'contains(order)'
 p7988
-I01
+I00
 sS'contains(maestro)'
 p7989
 I00
@@ -23383,7 +23383,7 @@ I00
 sS'contains(page)'
 p8002
 I00
-sVapp
+sVgeneral
 p8003
 tp8004
 a((dp8005
@@ -23467,7 +23467,7 @@ p8031
 I00
 sS'contains(app)'
 p8032
-I00
+I01
 sS'contains(replac)'
 p8033
 I00
@@ -23530,7 +23530,7 @@ p8052
 I00
 sS'contains(order)'
 p8053
-I00
+I01
 sS'contains(maestro)'
 p8054
 I00
@@ -23573,7 +23573,7 @@ I00
 sS'contains(page)'
 p8067
 I00
-sVgeneral
+sVapp
 p8068
 tp8069
 a((dp8070
@@ -23744,10 +23744,10 @@ p8125
 I00
 sS'contains(discount)'
 p8126
-I01
+I00
 sS'contains(offer)'
 p8127
-I01
+I00
 sS'contains(search)'
 p8128
 I00
@@ -23763,7 +23763,7 @@ I00
 sS'contains(page)'
 p8132
 I00
-sVpromotions
+sVapp
 p8133
 tp8134
 a((dp8135
@@ -24013,7 +24013,7 @@ p8218
 I00
 sS'contains(account)'
 p8219
-I00
+I01
 sS'contains(payment)'
 p8220
 I00
@@ -24034,7 +24034,7 @@ p8225
 I00
 sS'contains(product)'
 p8226
-I01
+I00
 sS'contains(app)'
 p8227
 I00
@@ -24143,7 +24143,7 @@ I00
 sS'contains(page)'
 p8262
 I00
-sVapp
+sVuser_cluster
 p8263
 tp8264
 a((dp8265
@@ -24333,7 +24333,7 @@ I00
 sS'contains(page)'
 p8327
 I00
-sVgeneral
+sVdoctype
 p8328
 tp8329
 a((dp8330
@@ -24417,7 +24417,7 @@ p8356
 I00
 sS'contains(app)'
 p8357
-I00
+I01
 sS'contains(replac)'
 p8358
 I00
@@ -24523,7 +24523,7 @@ I00
 sS'contains(page)'
 p8392
 I00
-sVgeneral
+sVapp
 p8393
 tp8394
 a((dp8395
@@ -24595,7 +24595,7 @@ p8417
 I00
 sS'contains(address)'
 p8418
-I01
+I00
 sS'contains(signup)'
 p8419
 I00
@@ -24661,7 +24661,7 @@ p8439
 I00
 sS'contains(cancel)'
 p8440
-I00
+I01
 sS'contains(bank)'
 p8441
 I00
@@ -24670,7 +24670,7 @@ p8442
 I00
 sS'contains(order)'
 p8443
-I00
+I01
 sS'contains(maestro)'
 p8444
 I00
@@ -24713,7 +24713,7 @@ I00
 sS'contains(page)'
 p8457
 I00
-sVuser_cluster
+sVself_serve
 p8458
 tp8459
 a((dp8460
@@ -24921,7 +24921,7 @@ p8529
 I00
 sS'contains(place)'
 p8530
-I00
+I01
 sS'contains(shipment)'
 p8531
 I00
@@ -24963,7 +24963,7 @@ p8543
 I00
 sS'contains(account)'
 p8544
-I00
+I01
 sS'contains(payment)'
 p8545
 I00
@@ -24984,7 +24984,7 @@ p8550
 I00
 sS'contains(product)'
 p8551
-I01
+I00
 sS'contains(app)'
 p8552
 I00
@@ -25026,7 +25026,7 @@ p8564
 I00
 sS'contains(return)'
 p8565
-I01
+I00
 sS'contains(credit)'
 p8566
 I00
@@ -25044,13 +25044,13 @@ p8570
 I00
 sS'contains(bank)'
 p8571
-I00
+I01
 sS'contains(browser)'
 p8572
 I00
 sS'contains(order)'
 p8573
-I00
+I01
 sS'contains(maestro)'
 p8574
 I00
@@ -25093,7 +25093,7 @@ I00
 sS'contains(page)'
 p8587
 I00
-sVself_serve
+sVtransact
 p8588
 tp8589
 a((dp8590
@@ -25189,7 +25189,7 @@ p8620
 I00
 sS'contains(status)'
 p8621
-I01
+I00
 sS'contains(web)'
 p8622
 I00
@@ -25283,7 +25283,7 @@ I00
 sS'contains(page)'
 p8652
 I00
-sVself_serve
+sVgeneral
 p8653
 tp8654
 a((dp8655
@@ -25307,7 +25307,7 @@ p8661
 I00
 sS'contains(email)'
 p8662
-I01
+I00
 sS'contains(usernam)'
 p8663
 I00
@@ -25334,7 +25334,7 @@ p8670
 I00
 sS'contains(reset)'
 p8671
-I01
+I00
 sS'contains(specif)'
 p8672
 I00
@@ -25454,10 +25454,10 @@ p8710
 I00
 sS'contains(discount)'
 p8711
-I00
+I01
 sS'contains(offer)'
 p8712
-I00
+I01
 sS'contains(search)'
 p8713
 I00
@@ -25469,11 +25469,11 @@ p8715
 I00
 sS'contains(password)'
 p8716
-I01
+I00
 sS'contains(page)'
 p8717
 I00
-sVuser_cluster
+sVpromotions
 p8718
 tp8719
 a((dp8720
@@ -25663,7 +25663,7 @@ I00
 sS'contains(page)'
 p8782
 I00
-sVdoctype
+sVgeneral
 p8783
 tp8784
 a((dp8785
@@ -25810,13 +25810,13 @@ p8832
 I00
 sS'contains(order)'
 p8833
-I00
+I01
 sS'contains(maestro)'
 p8834
 I00
 sS'contains(deliv)'
 p8835
-I00
+I01
 sS'contains(visa)'
 p8836
 I00
@@ -25846,14 +25846,14 @@ p8844
 I00
 sS'contains(refund)'
 p8845
-I00
+I01
 sS'contains(password)'
 p8846
 I00
 sS'contains(page)'
 p8847
 I00
-sVgeneral
+sVself_serve
 p8848
 tp8849
 a((dp8850
@@ -25991,7 +25991,7 @@ p8894
 I00
 sS'contains(cancel)'
 p8895
-I00
+I01
 sS'contains(bank)'
 p8896
 I00
@@ -26006,7 +26006,7 @@ p8899
 I00
 sS'contains(deliv)'
 p8900
-I00
+I01
 sS'contains(visa)'
 p8901
 I00
@@ -26027,7 +26027,7 @@ p8906
 I00
 sS'contains(offer)'
 p8907
-I01
+I00
 sS'contains(search)'
 p8908
 I00
@@ -26043,7 +26043,7 @@ I00
 sS'contains(page)'
 p8912
 I00
-sVpromotions
+sVsupply_chain
 p8913
 tp8914
 a((dp8915
@@ -26181,7 +26181,7 @@ p8959
 I00
 sS'contains(cancel)'
 p8960
-I01
+I00
 sS'contains(bank)'
 p8961
 I00
@@ -26190,7 +26190,7 @@ p8962
 I00
 sS'contains(order)'
 p8963
-I01
+I00
 sS'contains(maestro)'
 p8964
 I00
@@ -26233,7 +26233,7 @@ I00
 sS'contains(page)'
 p8977
 I00
-sVself_serve
+sVgeneral
 p8978
 tp8979
 a((dp8980
@@ -26429,559 +26429,559 @@ tp9044
 asS'train_set'
 p9045
 (lp9046
-(Vwhy do you have a 30 day replacement guarantee if you are not willing to replace a defective phone. @flipkartsupport @Flipkart
+(VBut how can I if there's no option related @flipkartsupport
 p9047
 g73
 tp9048
-a(VDear @flipkartsupport, Why are you fooling us? What do you want to achieve by doing this Fraud ? CC @Flipkart http://t.co/MpXJdyFanH
+a(VSurely @Flipkart  and @myntra  can do much better than sending out apology letters. Learn something from @amazonIN
 p9049
 g138
 tp9050
-a(VSurely @Flipkart  and @myntra  can do much better than sending out apology letters. Learn something from @amazonIN
+a(V@Flipkart selling products by giving fake specifications....not cool bro !
 p9051
 g203
 tp9052
-a(VSuccessfully added my Mi 4i to cart, but not able to place my order @Flipkart
+a(VClosing down #website in order to promote app-based purchase had been suicidal move by e-commerce giants @Flipkart @myntra
 p9053
 g268
 tp9054
-a(V. @Flipkart why do you need access to sms and contacts in new android app update?
+a(VMy gift coupons are starting frm 6 n none of them wer applicable for multiple vendor orders. @Flipkart @AshwiniDodani http://t.co/1s4fH9FQc8
 p9055
 g333
 tp9056
-a(VCoupon code is valid but it does not get applied
+a(V@flipkartsupport the product name its incorrect and is not helpful for customers cc @LumiaIndia @Lumia @WindowsInd
 p9057
 g398
 tp9058
-a(VMy email raj.auin@gmail.com has been updated to mdali806@gmail.com(it's not mine). My order history has been clubbed with mdali806@gmail.com and my email raj.auin@gmail.com is no longer active.
+a(VMy HDFC debit card is not working with flipkart.
 p9059
 g463
 tp9060
-a(VYou suck @Flipkart #bitch   Flipkart 'caught' offering fake discount http://t.co/oxJPglsetB via @timesofindia
+a(V@Flipkart think someone is using my email address to place orders and then cancelling. wht numer Can I call? Can't find number on your site.
 p9061
 g528
 tp9062
-a(VOne of the craziest thing I have ever experienced in on line shopping. Rs.580 delivery charges for a product of Rs.980, and this is one of the many examples.
+a(VRequest you all not to buy any thing from @flipkartsupport  else you have to regret for loosing your money and time
 p9063
 g593
 tp9064
-a(VU r an online store luking to sell electronics, b prepared 2 refund for substandard products. Give my money back @Flipkart @flipkartsupport
+a(VDear @Flipkart Whats the issue? http://t.co/hG1XvDe3fW
 p9065
 g658
 tp9066
-a(VDear @Flipkart,if I've placed an order &amp; tat product has a freebie,y can't u make sure that both reach me at once? Y send d freebie first?
+a(VI ordered something from @Flipkart nd when the guy came to deliver, asked him to wait for 5 mins as I was on my way.He said "no".Gr8 service
 p9067
 g723
 tp9068
-a(V@Flipkart why did you guys created my account without asking me. #SPAM #FLIPKART #FAKEUSERS
+a(V@Flipkart, I think the address deletion on 4+ delivery addresses is broken, I can neither add a new address nor delete the previous ones.
 p9069
 g788
 tp9070
-a(VSuch pathetic experience with @Flipkart @flipkartsupport. TV delivered on 9thMay still installation not done inspite of daily followup #fail
+a(VCant believe even a @Flipkart advantage product is being delayed to pack &amp; ship for no valid reason!!
 p9071
 g853
 tp9072
-a(VHey flipkart I am facing issues while doing otp signup
+a(V.@Flipkart this doesn't surprise me at all. Had terrible experiences with Flipkart in the past https://t.co/iio0kp9cck
 p9073
 g918
 tp9074
-a(VHey @Flipkart, if a product is missing the MRP on its package, do I just take your word for it on the price or discount?
+a(V@Flipkart why did you guys created my account without asking me. #SPAM #FLIPKART #FAKEUSERS
 p9075
 g983
 tp9076
-a(VSeriously @flipkart @flipkartsupport is screwing me over. If you can't deliver a parcel in time you should have informed before.
+a(Vi am unable to access my email under user id - aarushmirakhur@hotmail.com
 p9077
 g1048
 tp9078
-a(VThe @Flipkart TVC is a copy paste of @AxisBank's TVC last yr. Same theme, same voiceover, but that had more logic. #advertising #creativity
+a(V42" UHD @flipkartsupport, delivered on time, bt still waiting 4 installation. Pathetic service from @Micromax_Mobile http://t.co/xGlRamk1pb
 p9079
 g1113
 tp9080
-a(VDear @Flipkart  Whenever v think of online shopping v think of ur brand. Dis incident damage customers trust. #reply http://t.co/hqMGypx12Q
+a(Vwhat about sagu, @flipkartsupport? #LOL  https://t.co/Z2Jv7lZL0C
 p9081
 g1178
 tp9082
-a(V...@Flipkart Fucking bullshit service.Ordered 5 days ago but not received. #flipcart_is_flopkart #badservice #ordered1sttime #nottoordragain
+a(VHey @Flipkart let me decide if I want to save my card details on your site. Don't force me to do that. Its annoying!! :/
 p9083
 g1243
 tp9084
-a(VPissed off with the flipkart website please fix it, its not working at 512kbps mtnl network @Flipkart @flipkart_tech
+a(VOne of the craziest thing I have ever experienced in on line shopping. Rs.580 delivery charges for a product of Rs.980, and this is one of the many examples.
 p9085
 g1308
 tp9086
-a(VTOI - @flipkart 'caught' offering fake discount  http://t.co/2xytTI52sd via@timesofindia
+a(VFeel cheated by @_sachinbansal &amp; @flipkart. Want a refund for a substandard product but not allowed as per company policy! #ChutiyaBanaya
 p9087
 g1373
 tp9088
-a(VHow @Flipkart is making public Chut!y@ http://t.co/e7mMIztScv Sorry @Flipkart you are not smarter than public
+a(V#Flipkart or it's seller, Doesn't really matter! "@Flipkart gets caught trying to raise MRP" http://t.co/RdRUJO25tA http://t.co/Kq5fWOOQW6
 p9089
 g1438
 tp9090
-a(V#Flipkart or it's seller, Doesn't really matter! "@Flipkart gets caught trying to raise MRP" http://t.co/RdRUJO25tA http://t.co/Kq5fWOOQW6
+a(VDon't know why I choose @flipkartsupport  . single complaint not handled by them almost a month passed.
 p9091
 g1503
 tp9092
-a(VOnline Looters don't mind your words until bcm #Maggi @spicy_words Reality of discounts @Flipkart you are Fraudkart! http://t.co/oRGxlgc3VE"
+a(V.@Flipkart Ordered 3 products and delivery dude says he couldn't find my house! I've bought online about 8 times, get in touch with me ASAP!
 p9093
 g1568
 tp9094
-a(VWhen I am waiting for the shipment to arrive @flipkart @flipkartsupport calls and says it will be escalated. Pathetic.
+a(VMonsoon is just like @Flipkart deliveries, it never comes soon.
 p9095
 g1633
 tp9096
-a(VIs it that now most of the books not sold thru WS-Retail and the flipkart first customers really suffer, @Flipkart @flipkartsupport ?
+a(VCome on! This is a measly excuse for an article. You're just picking on @Flipkart . http://t.co/iRvy5x64XB @logicalindians
 p9097
 g1698
 tp9098
-a(VI am facing this problem very frequently with the latest version of your app. Its showing that "we have problem reaching our server. Please try again."
+a(VDear @Flipkart,if I've placed an order &amp; tat product has a freebie,y can't u make sure that both reach me at once? Y send d freebie first?
 p9099
 g1763
 tp9100
-a(VOn electronic sale Page honor holly is shown with 10% discount but on product page it is listed without discount
+a(VDear @flipkartsupport, I made a mistake by ordering AC from @Flipkart. It is installed but remote is not working from the very next day. +
 p9101
 g1828
 tp9102
-a(VI had to replace my Mi3 thrice coz of poor quality control of @xiaomi products. this time @Flipkart doesn't even want to replace them.
+a(VWanted to check price of phones online. Could see @amazonIN prices but not @Flipkart. Sorry FK I'm not gonna download an app just for this.
 p9103
 g1893
 tp9104
-a(VSame products are getting loaded every time when you scroll down on browse page.
+a(V...@Flipkart Fucking bullshit service.Ordered 5 days ago but not received. #flipcart_is_flopkart #badservice #ordered1sttime #nottoordragain
 p9105
 g1958
 tp9106
-a(V@Flipkart Look at the glitch . You guys showing a picture of iPhone 5s in Nexus 5 cover section .
+a(VDear @flipkartsupport, Why are you fooling us? What do you want to achieve by doing this Fraud ? CC @Flipkart http://t.co/MpXJdyFanH
 p9107
 g2023
 tp9108
-a(VWanted to check price of phones online. Could see @amazonIN prices but not @Flipkart. Sorry FK I'm not gonna download an app just for this.
+a(VVery disappointed with @Flipkart ordered two products as displayed and got something totally different. Not shopping here anymore!
 p9109
 g2088
 tp9110
-a(VFacing issues while signing in
+a(V5 days be4 I placed lenova a6000+ mobile but still now I didn't get my mobile@Flipkart@flipkartsupport I m rs500 paid #flipkart 1st customer
 p9111
 g2153
 tp9112
-a(VHorrible service from @Flipkart . Unbelievable experience. Hater count increases by 1.
+a(VI had to replace my Mi3 thrice coz of poor quality control of @xiaomi products. this time @Flipkart doesn't even want to replace them.
 p9113
 g2218
 tp9114
-a(VHi @flipkartsupport, how do I turn-off in app notifications?
+a(VDear @flipkartsupport , can you please explain what's happening out here ? http://t.co/N38htX9A7q
 p9115
 g2283
 tp9116
-a(V@Flipkart @flipkartsupport What the heck is this..!! Unable to access "My orders".Still trying.
+a(V@Flipkart is there a problem with your payment gateway? Unable to make a payment since morning. Have tried atleast 12 times. RSVP
 p9117
 g2348
 tp9118
-a(VMy gift coupons are starting frm 6 n none of them wer applicable for multiple vendor orders. @Flipkart @AshwiniDodani http://t.co/1s4fH9FQc8
+a(VIs it that now most of the books not sold thru WS-Retail and the flipkart first customers really suffer, @Flipkart @flipkartsupport ?
 p9119
 g2413
 tp9120
-a(Vi am liking it! :-) @Flipkart 'caught' offering fake discount http://t.co/cFKZvbtmBH
+a(VMy email raj.auin@gmail.com has been updated to mdali806@gmail.com(it's not mine). My order history has been clubbed with mdali806@gmail.com and my email raj.auin@gmail.com is no longer active.
 p9121
 g2478
 tp9122
-a(VWhy is maestro card not working for me on the flipkart website
+a(VCoupon code is valid but it does not get applied
 p9123
 g2543
 tp9124
-a(VDear @Flipkart Whats the issue? http://t.co/hG1XvDe3fW
+a(VAnd since @flipkart moronic leader hv not had app for blackberry switching my purchases to @amazon which has blackberry app
 p9125
 g2608
 tp9126
-a(VDont u own an explanation for this? http://t.co/4DGHqvk99A @_sachinbansal @Flipkart @flipkartsupport  #flipkart
+a(VShipment misrouted as per @flipkart . Found out myself. @flipkartsupport no harm in letting me know this?. http://t.co/HfOTTCWHeo
 p9127
 g2673
 tp9128
-a(VLook at dis @Flipkart is making fool of us!! http://t.co/WM7MVbjp8D Shame Shame!! #MaggiRecalled #AapKaCM #BengalWithRG DDLJ Pic 1 Pluto
+a(VWhy is @Flipkart discontinuing @facebook login? What's the catch? #productmanagement #ecommerce #startups http://t.co/DpARTI6lrM
 p9129
 g2738
 tp9130
-a(VHey @Flipkart just out of curiosity, which algorithm do you use for sorting? I think you need a better one.
+a(VDear @Flipkart  Whenever v think of online shopping v think of ur brand. Dis incident damage customers trust. #reply http://t.co/hqMGypx12Q
 p9131
 g2803
 tp9132
-a(VAnd since @flipkart moronic leader hv not had app for blackberry switching my purchases to @amazon which has blackberry app
+a(V@Flipkart please fix the issue with my credit card. I'm not able to make the payment
 p9133
 g2868
 tp9134
-a(VI ordered something from @Flipkart nd when the guy came to deliver, asked him to wait for 5 mins as I was on my way.He said "no".Gr8 service
+a(VSuccessfully added my Mi 4i to cart, but not able to place my order @Flipkart
 p9135
 g2933
 tp9136
-a(VHi @Flipkart have some shame to loot the people!! https://t.co/ogNR98e44E
+a(VSomething is wrong with @Flipkart website.Receiving this error (HTTP ERROR: 500) every now and then.@flipkartsupport pic.twitter.com/iL5rmvfVqR
 p9137
 g2998
 tp9138
-a(VWTF @Flipkart??? Who gives a fish about your dispatch messages at 2.00am? http://t.co/aHw84csh1g
+a(VMy friend @Flipkart why you canceling my order always i need to have that headphone please stop canceling my order (3 times of canceling) y?
 p9139
 g3063
 tp9140
-a(VDear @Flipkart can you explain this? @flipkartsupport http://t.co/paS8oH27cO
+a(V. @Flipkart why do you need access to sms and contacts in new android app update?
 p9141
 g3128
 tp9142
-a(VMost pathetic service by @Flipkart ... 3rd time they have cancelled my order after accepting it..
+a(VWTF @Flipkart??? Who gives a fish about your dispatch messages at 2.00am? http://t.co/aHw84csh1g
 p9143
 g3193
 tp9144
-a(V42" UHD @flipkartsupport, delivered on time, bt still waiting 4 installation. Pathetic service from @Micromax_Mobile http://t.co/xGlRamk1pb
+a(VPlus I didnt get courier Company's detail or number of delivery guy. Been regular customer bt this is pathetic service! @Flipkart
 p9145
 g3258
 tp9146
-a(Vi am unable to access my email under user id - aarushmirakhur@hotmail.com
+a(VFlipkart 'caught' offering fake discount..http://t.co/iBNiz5U644 @Flipkart
 p9147
 g3323
 tp9148
-a(VProfessional blunder by @Flipkart Ordered on #flipkart, got the product in #Snapdeal package.
+a(VU r an online store luking to sell electronics, b prepared 2 refund for substandard products. Give my money back @Flipkart @flipkartsupport
 p9149
 g3388
 tp9150
-a(VDoesn't not delivering your ordering amount for a refund.Pay Up @Flipkart Refund 4 what wont deliver OD302831114196353800 #FlipkartPayUp
+a(VMost pathetic service by @Flipkart ... 3rd time they have cancelled my order after accepting it..
 p9151
 g3453
 tp9152
-a(VBought #VU LED from @Flipkart @flipkartsupport the guy came for installation but the product refused to start.. no reply from anyone
+a(VNeither return my money nor change the product @flipkartsupport  feel me frustrated and disappointed from e-commerce sites.
 p9153
 g3518
 tp9154
-a(VShame on u @Flipkart  @_sachinbansal  @binnybansal don\u2019t fool ppl wid #AbHarWishHogiPoori truth is #AbHarWishRahegiAdhoori u ppl r #Flopkart
+a(VWhy is maestro card not working for me on the flipkart website
 p9155
 g3583
 tp9156
-a(VDear @Flipkart &amp; @myntra, thanks for letting me know my orders will b delivered today. But sending me the same msg 30 times is too much, no?
+a(V24 Hours after this Wrong Price listing going viral on Facebook, no fix from @flipkart http://t.co/rHrnqMSs6T http://t.co/Y6JUX77Qty
 p9157
 g3648
 tp9158
-a(VHahaha. The Microsoft way of managing apps.  Surely you must be joking @_sachinbansal @flipkartsupport http://t.co/CQ1E6laEHK
+a(VLook at dis @Flipkart is making fool of us!! http://t.co/WM7MVbjp8D Shame Shame!! #MaggiRecalled #AapKaCM #BengalWithRG DDLJ Pic 1 Pluto
 p9159
 g3713
 tp9160
-a(Vwhat about sagu, @flipkartsupport? #LOL  https://t.co/Z2Jv7lZL0C
+a(VHey flipkart I am facing issues while doing otp signup
 p9161
 g3778
 tp9162
-a(VDear @Flipkart , Your app is a disaster. Lying about products &amp; prices wont get you anywhere. No wonder you are losing the e-com battle.
+a(VHey @Flipkart, if a product is missing the MRP on its package, do I just take your word for it on the price or discount?
 p9163
 g3843
 tp9164
-a(VRequest you all not to buy any thing from @flipkartsupport  else you have to regret for loosing your money and time
+a(VOD002940315675027500 @Flipkart @flipkartsupport Pathetic service with equally pathetic product.. no exchange no refund no reply
 p9165
 g3908
 tp9166
-a(VWhy does the @Flipkart app need access to Contacts and SMS?
+a(VHorrible service from @Flipkart . Unbelievable experience. Hater count increases by 1.
 p9167
 g3973
 tp9168
-a(VWhy is @Flipkart discontinuing @facebook login? What's the catch? #productmanagement #ecommerce #startups http://t.co/DpARTI6lrM
+a(VOD102951735999271800 haven't received by invoice ... please send my invoice @Flipkart
 p9169
 g4038
 tp9170
-a(VCome on! This is a measly excuse for an article. You're just picking on @Flipkart . http://t.co/iRvy5x64XB @logicalindians
+a(VOnline Looters don't mind your words until bcm #Maggi @spicy_words Reality of discounts @Flipkart you are Fraudkart! http://t.co/oRGxlgc3VE"
 p9171
 g4103
 tp9172
-a(VHey @Flipkart , that categories bar below search bar is so irritating in the desktop website. When you move cursor after searching 1/2
+a(VTrying to order a gift for a friend @Flipkart and there is no option to expedite delivery :(
 p9173
 g4168
 tp9174
-a(VHey @Flipkart let me decide if I want to save my card details on your site. Don't force me to do that. Its annoying!! :/
+a(VDear @Flipkart n @amazon on #WorldEnvironmentDay can you find alternative for ur cardboard packaging, less paper and plastic please?
 p9175
 g4233
 tp9176
-a(V.@Flipkart 'caught' offering fake discount http://t.co/AAGnpBF2J4 http://t.co/HBnaqRM0ZS
+a(VIs it even legal to check those 'save card details' checkboxes by default? If yes, why? @Flipkart @amazonIN @snapdeal @Airtel_Presence
 p9177
 g4298
 tp9178
-a(V24 Hours after this Wrong Price listing going viral on Facebook, no fix from @flipkart http://t.co/rHrnqMSs6T http://t.co/Y6JUX77Qty
+a(Vi clicked on forgot password link, and recieved an change password link onto my registered email that is - aarushmirakhur@hotmail.com, but when i click that link it opens a web page where i have to input a new password and when i do that and even confirm the new password your server refuses to save the password.
 p9179
 g4363
 tp9180
-a(VOrder did not get placed but money got deducted from my bank account
+a(VSame products are getting loaded every time when you scroll down on browse page.
 p9181
 g4428
 tp9182
-a(V@Flipkart selling products by giving fake specifications....not cool bro !
+a(VI was looking for some product on my Tab, but @Flipkart was forcing me to install the app. Finally! Thank you @amazonIN
 p9183
 g4493
 tp9184
-a(Vhttp://t.co/W1upPlCwRu Wtf is this ? @Flipkart #Flipkart #flipkartfools #flipkartbluff
+a(VSo what do you have to say about fake discounts @Flipkart @flipkartsupport ? Nice way to fool innocent customers! http://t.co/NUYt44l6zq
 p9185
 g4558
 tp9186
-a(V.@Flipkart Ordered 3 products and delivery dude says he couldn't find my house! I've bought online about 8 times, get in touch with me ASAP!
+a(V@flipkart_tech on searching for "samsung led tv" it shows saries from 4th to 8th row of results, you might want to fix it @Flipkart
 p9187
 g4623
 tp9188
-a(Vwhy does flipkart store my netbanking credentials
+a(Vwhy do you have a 30 day replacement guarantee if you are not willing to replace a defective phone. @flipkartsupport @Flipkart
 p9189
 g4688
 tp9190
-a(V@Flipkart please fix the issue with my credit card. I'm not able to make the payment
+a(VHahaha. The Microsoft way of managing apps.  Surely you must be joking @_sachinbansal @flipkartsupport http://t.co/CQ1E6laEHK
 p9191
 g4753
 tp9192
-a(V@Flipkart All I am asking is to email me the password reset link! Been waiting for quite sometime. Please?!
+a(VNo one can beat @Flipkart in giving fake discount, thanks @akshaykanitkar :)   https://t.co/RNpN7i8Jcv
 p9193
 g4818
 tp9194
-a(VSo what do you have to say about fake discounts @Flipkart @flipkartsupport ? Nice way to fool innocent customers! http://t.co/NUYt44l6zq
+a(VHi @flipkartsupport, how do I turn-off in app notifications?
 p9195
 g4883
 tp9196
-a(V.@Flipkart this doesn't surprise me at all. Had terrible experiences with Flipkart in the past https://t.co/iio0kp9cck
+a(VHi @Flipkart have some shame to loot the people!! https://t.co/ogNR98e44E
 p9197
 g4948
 tp9198
-a(VClosing down #website in order to promote app-based purchase had been suicidal move by e-commerce giants @Flipkart @myntra
+a(VTOI - @flipkart 'caught' offering fake discount  http://t.co/2xytTI52sd via@timesofindia
 p9199
 g5013
 tp9200
-a(VMy friend @Flipkart why you canceling my order always i need to have that headphone please stop canceling my order (3 times of canceling) y?
+a(Vwhy does flipkart store my netbanking credentials
 p9201
 g5078
 tp9202
-a(VDon't know how long...  Getting shortly shortly message since the last 2 hours.  How poor? @flipkartsupport  No call back yet?
+a(VFacing issues while signing in
 p9203
 g5143
 tp9204
-a(VCant believe even a @Flipkart advantage product is being delayed to pack &amp; ship for no valid reason!!
+a(VDon't know how long...  Getting shortly shortly message since the last 2 hours.  How poor? @flipkartsupport  No call back yet?
 p9205
 g5208
 tp9206
-a(VDear @flipkartsupport, I made a mistake by ordering AC from @Flipkart. It is installed but remote is not working from the very next day. +
+a(VThe @Flipkart TVC is a copy paste of @AxisBank's TVC last yr. Same theme, same voiceover, but that had more logic. #advertising #creativity
 p9207
 g5273
 tp9208
-a(Vi have tried the password reset 3 different times and every times it regrets to accept my new password
+a(V#omg @Flipkart is this what your 'sale' really is? https://t.co/TjxFCnLN8S
 p9209
 g5338
 tp9210
-a(V@_sachinbansal @binnybansal Serious issue with flipkart. Account has gotten merged with someone using an incorrect email...
+a(VPissed off with the flipkart website please fix it, its not working at 512kbps mtnl network @Flipkart @flipkart_tech
 p9211
 g5403
 tp9212
-a(Vhalf of images on @Flipkart doesnt load, have been like this for month
+a(VSuch pathetic experience with @Flipkart @flipkartsupport. TV delivered on 9thMay still installation not done inspite of daily followup #fail
 p9213
 g5468
 tp9214
-a(VMy HDFC debit card is not working with flipkart.
+a(VAvoid @flipkart for at least things like clothes and perfumes @ShivAroor
 p9215
 g5533
 tp9216
-a(VOD102951735999271800 haven't received by invoice ... please send my invoice @Flipkart
+a(Vhttp://t.co/W1upPlCwRu Wtf is this ? @Flipkart #Flipkart #flipkartfools #flipkartbluff
 p9217
 g5598
 tp9218
-a(V@Flipkart think someone is using my email address to place orders and then cancelling. wht numer Can I call? Can't find number on your site.
+a(V.@Flipkart 'caught' offering fake discount http://t.co/AAGnpBF2J4 http://t.co/HBnaqRM0ZS
 p9219
 g5663
 tp9220
-a(VIs it even legal to check those 'save card details' checkboxes by default? If yes, why? @Flipkart @amazonIN @snapdeal @Airtel_Presence
+a(VWhen I am waiting for the shipment to arrive @flipkart @flipkartsupport calls and says it will be escalated. Pathetic.
 p9221
 g5728
 tp9222
-a(VMake up your mind, @Flipkart @flipkartsupport - alcohol or no alcohol? http://t.co/7EYu2ZDdMd
+a(V@Flipkart All I am asking is to email me the password reset link! Been waiting for quite sometime. Please?!
 p9223
 g5793
 tp9224
-a(VPlus I didnt get courier Company's detail or number of delivery guy. Been regular customer bt this is pathetic service! @Flipkart
+a(VProfessional blunder by @Flipkart Ordered on #flipkart, got the product in #Snapdeal package.
 p9225
 g5858
 tp9226
-a(V@flipkartsupport the product name its incorrect and is not helpful for customers cc @LumiaIndia @Lumia @WindowsInd
+a(VMake up your mind, @Flipkart @flipkartsupport - alcohol or no alcohol? http://t.co/7EYu2ZDdMd
 p9227
 g5923
 tp9228
-a(VShipment misrouted as per @flipkart . Found out myself. @flipkartsupport no harm in letting me know this?. http://t.co/HfOTTCWHeo
+a(VYou suck @Flipkart #bitch   Flipkart 'caught' offering fake discount http://t.co/oxJPglsetB via @timesofindia
 p9229
 g5988
 tp9230
-a(VDear @flipkartsupport , can you please explain what's happening out here ? http://t.co/N38htX9A7q
+a(VHi @Flipkart, Can you please let me know the status of the following orders. OD302949813576731001 OD302949813576731002  Thanks !
 p9231
 g6053
 tp9232
-a(VFeel cheated by @_sachinbansal &amp; @flipkart. Want a refund for a substandard product but not allowed as per company policy! #ChutiyaBanaya
+a(VBought #VU LED from @Flipkart @flipkartsupport the guy came for installation but the product refused to start.. no reply from anyone
 p9233
 g6118
 tp9234
-a(Vi clicked on forgot password link, and recieved an change password link onto my registered email that is - aarushmirakhur@hotmail.com, but when i click that link it opens a web page where i have to input a new password and when i do that and even confirm the new password your server refuses to save the password.
+a(VOrdered 3 items via @Flipkart out of which 2 got cancelled because the seller didn't have them in stock. Another 7 days for refund they say.
 p9235
 g6183
 tp9236
-a(VYou are taking 15 days to deliver a mobile cover, seriously? @flipkartsupport plz inform ur seller that even speed post delivers faster.
+a(VWhy does the @Flipkart app need access to Contacts and SMS?
 p9237
 g6248
 tp9238
-a(VTo the idiots blaming @Flipkart for inflated MRP fiasco - https://t.co/hsO5HR01xY
+a(Vi am liking it! :-) @Flipkart 'caught' offering fake discount http://t.co/cFKZvbtmBH
 p9239
 g6313
 tp9240
-a(V@flipkart_tech on searching for "samsung led tv" it shows saries from 4th to 8th row of results, you might want to fix it @Flipkart
+a(V#wtf is this @Flipkart can u please explain ? http://t.co/hsTpWXLEdH
 p9241
 g6378
 tp9242
-a(VOrdered by Flipkart.com, Packed with snapdeal package
+a(VLooks like @flipkart delivered the wrong product... http://t.co/uST698ou06 http://t.co/xK0EeARRVK
 p9243
 g6443
 tp9244
-a(V10x bigger package than the product size.
+a(V@Flipkart All I am asking is to email me the password reset link! Been waiting for quite sometime. Please?!
 p9245
 g6508
 tp9246
-a(VMonsoon is just like @Flipkart deliveries, it never comes soon.
+a(Vi have tried the password reset 3 different times and every times it regrets to accept my new password
 p9247
 g6573
 tp9248
-a(V@Flipkart is there a problem with your payment gateway? Unable to make a payment since morning. Have tried atleast 12 times. RSVP
+a(V@Flipkart Not able to buy http://www.flipkart.com/parx-men-s-checkered-casual-shirt/p/itmdyrr53dz93mwj?pid=SHTDYRR4FJUWK7FM&otracker=from-search&srno=t_8&query=parx+blue+mens+checkered+shirt&ref=975e0968-49bb-41d2-ad7f-b093f021f1b0 \u2026  On App. Not able to select 42 size
 p9249
 g6638
 tp9250
-a(VLooks like @flipkart delivered the wrong product... http://t.co/uST698ou06 http://t.co/xK0EeARRVK
+a(VDear @Flipkart , Your app is a disaster. Lying about products &amp; prices wont get you anywhere. No wonder you are losing the e-com battle.
 p9251
 g6703
 tp9252
-a(V5 days be4 I placed lenova a6000+ mobile but still now I didn't get my mobile@Flipkart@flipkartsupport I m rs500 paid #flipkart 1st customer
+a(VHey @Flipkart , that categories bar below search bar is so irritating in the desktop website. When you move cursor after searching 1/2
 p9253
 g6768
 tp9254
-a(VVery disappointed with @Flipkart ordered two products as displayed and got something totally different. Not shopping here anymore!
+a(VMy ordeal with @flipkart @flipkartsupport continues. Seems they don't have any control on their partners &amp; can't get the TV installed :(
 p9255
 g6833
 tp9256
-a(VWhere is my order# OD002951871222117800 @Flipkart @flipkartsupport ? Should I cancel it?  It was supposed to be delivered by 30th May 2015.
+a(VHow @Flipkart sell things  Have some ethics atleast http://t.co/jnlWd5ixMx
 p9257
 g6898
 tp9258
-a(VOrdered 3 items via @Flipkart out of which 2 got cancelled because the seller didn't have them in stock. Another 7 days for refund they say.
+a(VWhat happened to @Flipkart logo font.??!!!! Please revert to the original one...Please Please... @flipkart_tech @flipkartsupport
 p9259
 g6963
 tp9260
-a(VMy ordeal with @flipkart @flipkartsupport continues. Seems they don't have any control on their partners &amp; can't get the TV installed :(
+a(VShame on u @Flipkart  @_sachinbansal  @binnybansal don\u2019t fool ppl wid #AbHarWishHogiPoori truth is #AbHarWishRahegiAdhoori u ppl r #Flopkart
 p9261
 g7028
 tp9262
-a(VTrying to order a gift for a friend @Flipkart and there is no option to expedite delivery :(
+a(VI'm not able to make payment throught hdfc netbanking :((((
 p9263
 g7093
 tp9264
-a(VOD002940315675027500 @Flipkart @flipkartsupport Pathetic service with equally pathetic product.. no exchange no refund no reply
+a(VOrdered by Flipkart.com, Packed with snapdeal package
 p9265
 g7158
 tp9266
-a(VDon't know why I choose @flipkartsupport  . single complaint not handled by them almost a month passed.
+a(VDear @Flipkart &amp; @myntra, thanks for letting me know my orders will b delivered today. But sending me the same msg 30 times is too much, no?
 p9267
 g7223
 tp9268
-a(V@Flipkart Not able to buy http://www.flipkart.com/parx-men-s-checkered-casual-shirt/p/itmdyrr53dz93mwj?pid=SHTDYRR4FJUWK7FM&otracker=from-search&srno=t_8&query=parx+blue+mens+checkered+shirt&ref=975e0968-49bb-41d2-ad7f-b093f021f1b0 \u2026  On App. Not able to select 42 size
+a(V.@flipkart you guys hit a new low every time! Pathetic service,clueless cust care,can't wait to see u go out of business.
 p9269
 g7288
 tp9270
-a(VI'm not able to make payment throught hdfc netbanking :((((
+a(Vhalf of images on @Flipkart doesnt load, have been like this for month
 p9271
 g7353
 tp9272
-a(V#wtf is this @Flipkart can u please explain ? http://t.co/hsTpWXLEdH
+a(VHey @Flipkart just out of curiosity, which algorithm do you use for sorting? I think you need a better one.
 p9273
 g7418
 tp9274
-a(V.@flipkart you guys hit a new low every time! Pathetic service,clueless cust care,can't wait to see u go out of business.
+a(V@Flipkart Look at the glitch . You guys showing a picture of iPhone 5s in Nexus 5 cover section .
 p9275
 g7483
 tp9276
-a(VEven after agreeing to refund, no one came to collect Plz take it back and refund my money @Flipkart gave me duplicate headphones
+a(VDear @Flipkart Thank you, I will never buy from you again! Such pathetic customer service!
 p9277
 g7548
 tp9278
-a(VI had always trusted @Flipkart  Hope this is some error. If this is intentional, then it is too bad  https://t.co/5HRvwLb7Jm
+a(V10x bigger package than the product size.
 p9279
 g7613
 tp9280
-a(VHow @Flipkart sell things  Have some ethics atleast http://t.co/jnlWd5ixMx
+a(VOn electronic sale Page honor holly is shown with 10% discount but on product page it is listed without discount
 p9281
 g7678
 tp9282
-a(VDear @Flipkart n @amazon on #WorldEnvironmentDay can you find alternative for ur cardboard packaging, less paper and plastic please?
+a(VEven after agreeing to refund, no one came to collect Plz take it back and refund my money @Flipkart gave me duplicate headphones
 p9283
 g7743
 tp9284
-a(VNo one can beat @Flipkart in giving fake discount, thanks @akshaykanitkar :)   https://t.co/RNpN7i8Jcv
+a(VYou are taking 15 days to deliver a mobile cover, seriously? @flipkartsupport plz inform ur seller that even speed post delivers faster.
 p9285
 g7808
 tp9286
-a(VPlease contact me @flipkartsupport   I am a flipkart first customer.  Your app helpfully says my ac is inactive
+a(VSeriously @flipkart @flipkartsupport is screwing me over. If you can't deliver a parcel in time you should have informed before.
 p9287
 g7873
 tp9288
-a(VAvoid @flipkart for at least things like clothes and perfumes @ShivAroor
+a(V@Flipkart @flipkartsupport What the heck is this..!! Unable to access "My orders".Still trying.
 p9289
 g7938
 tp9290
-a(VHow so effing stupid of @flipkart to convert itself into just mobile app// but not hving app for BlackBerry.... morons of highest order
+a(VDont u own an explanation for this? http://t.co/4DGHqvk99A @_sachinbansal @Flipkart @flipkartsupport  #flipkart
 p9291
 g8003
 tp9292
-a(VDear @Flipkart Thank you, I will never buy from you again! Such pathetic customer service!
+a(VHow so effing stupid of @flipkart to convert itself into just mobile app// but not hving app for BlackBerry.... morons of highest order
 p9293
 g8068
 tp9294
-a(V.@Flipkart 'caught' offering fake discount http://t.co/4z95MaEJjM
+a(VI am facing this problem very frequently with the latest version of your app. Its showing that "we have problem reaching our server. Please try again."
 p9295
 g8133
 tp9296
-a(Vso @Flipkart till when will this continue http://t.co/sNDoDgqxFG #Disgusting @snapdeal @makemytrip @amazon anything to add?
+a(VHow @Flipkart is making public Chut!y@ http://t.co/e7mMIztScv Sorry @Flipkart you are not smarter than public
 p9297
 g8198
 tp9298
-a(VI was looking for some product on my Tab, but @Flipkart was forcing me to install the app. Finally! Thank you @amazonIN
+a(V@_sachinbansal @binnybansal Serious issue with flipkart. Account has gotten merged with someone using an incorrect email...
 p9299
 g8263
 tp9300
-a(VWhat happened to @Flipkart logo font.??!!!! Please revert to the original one...Please Please... @flipkart_tech @flipkartsupport
+a(VTo the idiots blaming @Flipkart for inflated MRP fiasco - https://t.co/hsO5HR01xY
 p9301
 g8328
 tp9302
-a(VThere's no difference in service for a first timer or #flipkartfirst @Flipkart #cancelling #subscription #annoyed with the @flipkartsupport
+a(VPlease contact me @flipkartsupport   I am a flipkart first customer.  Your app helpfully says my ac is inactive
 p9303
 g8393
 tp9304
-a(V@Flipkart, I think the address deletion on 4+ delivery addresses is broken, I can neither add a new address nor delete the previous ones.
+a(VDear @Flipkart @flipkartsupport have to cancel order ID OD302888450497262000 and OD302792599390028800...
 p9305
 g8458
 tp9306
-a(VThis is not good for you @Flipkart #DontLoseYourCustomers  http://t.co/sHJx2EqEsG
+a(VDear @Flipkart can you explain this? @flipkartsupport http://t.co/paS8oH27cO
 p9307
 g8523
 tp9308
-a(VNeither return my money nor change the product @flipkartsupport  feel me frustrated and disappointed from e-commerce sites.
+a(VOrder did not get placed but money got deducted from my bank account
 p9309
 g8588
 tp9310
-a(VHi @Flipkart, Can you please let me know the status of the following orders. OD302949813576731001 OD302949813576731002  Thanks !
+a(VI had always trusted @Flipkart  Hope this is some error. If this is intentional, then it is too bad  https://t.co/5HRvwLb7Jm
 p9311
 g8653
 tp9312
-a(V@Flipkart All I am asking is to email me the password reset link! Been waiting for quite sometime. Please?!
+a(V.@Flipkart 'caught' offering fake discount http://t.co/4z95MaEJjM
 p9313
 g8718
 tp9314
-a(VSomething is wrong with @Flipkart website.Receiving this error (HTTP ERROR: 500) every now and then.@flipkartsupport pic.twitter.com/iL5rmvfVqR
+a(VThere's no difference in service for a first timer or #flipkartfirst @Flipkart #cancelling #subscription #annoyed with the @flipkartsupport
 p9315
 g8783
 tp9316
-a(V#omg @Flipkart is this what your 'sale' really is? https://t.co/TjxFCnLN8S
+a(VDoesn't not delivering your ordering amount for a refund.Pay Up @Flipkart Refund 4 what wont deliver OD302831114196353800 #FlipkartPayUp
 p9317
 g8848
 tp9318
-a(VFlipkart 'caught' offering fake discount..http://t.co/iBNiz5U644 @Flipkart
+a(VWhere is my order# OD002951871222117800 @Flipkart @flipkartsupport ? Should I cancel it?  It was supposed to be delivered by 30th May 2015.
 p9319
 g8913
 tp9320
-a(VDear @Flipkart @flipkartsupport have to cancel order ID OD302888450497262000 and OD302792599390028800...
+a(VThis is not good for you @Flipkart #DontLoseYourCustomers  http://t.co/sHJx2EqEsG
 p9321
 g8978
 tp9322
-a(VBut how can I if there's no option related @flipkartsupport
+a(Vso @Flipkart till when will this continue http://t.co/sNDoDgqxFG #Disgusting @snapdeal @makemytrip @amazon anything to add?
 p9323
 g9043
 tp9324
