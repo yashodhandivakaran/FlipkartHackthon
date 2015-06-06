@@ -142,5 +142,9 @@ public class FKDBWrapper {
         return tweetsList;
 
     }
+
+    public void dropTables(){
+
+    }
 }
 

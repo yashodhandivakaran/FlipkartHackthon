@@ -32,4 +32,7 @@ public class TweetsTable {
         cv.put(TWEET_TEXT, action.getTweetText());
         return cv;
     }
+
+    public static final String TABLE_DROP =
+            "DROP TABLE IF EXISTS " + TABLE_NAME;
 }

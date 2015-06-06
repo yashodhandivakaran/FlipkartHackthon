@@ -28,4 +28,7 @@ public class CitiesTable {
         return cv;
     }
 
+    public static final String TABLE_DROP =
+            "DROP TABLE IF EXISTS " + TABLE_NAME;
+
 }

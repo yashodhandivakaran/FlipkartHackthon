@@ -20,7 +20,9 @@ public class CategoriesTable {
             "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ("
                     + NAME + " TEXT ," +
                     COUNT+" INT, " +
-                    CITY+" TEXT );";
+                    CITY+" TEXT ," +
+                    "UNIQUE ( "+ NAME+", "+CITY+"));";
+
 
     public static ContentValues getContentValueObject(Categories action) {
         ContentValues cv = new ContentValues();
@@ -29,5 +31,8 @@ public class CategoriesTable {
         cv.put(CITY,action.getCity());
         return cv;
     }
+
+    public static final String TABLE_DROP =
+            "DROP TABLE IF EXISTS " + TABLE_NAME;
 }
 
