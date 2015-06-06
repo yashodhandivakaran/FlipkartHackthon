@@ -198,7 +198,7 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         Random rand = new Random();
         int baseColor = rand.nextInt(size);
         for(int i =0;i<size;i++){
-            colors[i] = materialColors[i];
+            colors[i] = materialColors[(baseColor+i)%size];
         }
         dataSet.setColors(colors);
         pieChart.invalidate();
@@ -213,10 +213,10 @@ public class MainActivityFragment extends Fragment  implements InsertValuesInDBT
         int count = 0;
         for(Cities city: citieses){
             vals.add(new Entry(city.getCount(),count++));
-            labels.add(city.getName());
+            labels.add(city.getName().toUpperCase());
         }
 
-        dataSet = new PieDataSet(vals,"Customer Satisfaction");
+        dataSet = new PieDataSet(vals,"");
         Typeface tf = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
         dataSet.setValueTypeface(tf);
         dataSet.setValueTextSize(9f);

@@ -25,7 +25,8 @@ def get_features(document):
 	features = {}
 	#features['count'] = len(document_words)
 	for word in data.wordlist:
-		features['contains({})'.format(s.stem(word))] = (word in stemmed_words)
+		word = s.stem(word)
+		features['contains({})'.format(word)] = (word in stemmed_words)
 	return features
 
 def train(file_path):
